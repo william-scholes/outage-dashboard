@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Azure Status</title>
+    <link>https://status.azure.com/en-us/status</link>
+    <description>Azure Service Health</description>
+    <lastBuildDate>Mon, 09 Mar 2026 04:00:00 Z</lastBuildDate>
+    <item>
+      <guid>azure-001-aus-east</guid>
+      <link>https://status.azure.com/en-us/status/history/</link>
+      <title>Virtual Machines - Critical Outage in Australia East</title>
+      <description>Customers in Australia East may be experiencing connectivity issues with Virtual Machines. Engineering is engaged.</description>
+      <pubDate>Mon, 09 Mar 2026 03:45:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>azure-002-aus-southeast-degraded</guid>
+      <link>https://status.azure.com/en-us/status/history/</link>
+      <title>Storage Accounts - Degraded Performance in Australia Southeast</title>
+      <description>We are investigating reports of degraded storage performance in Australia Southeast region. Workaround: switch to geo-redundant storage in Australia East.</description>
+      <pubDate>Sun, 08 Mar 2026 22:10:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>azure-003-resolved</guid>
+      <link>https://status.azure.com/en-us/status/history/</link>
+      <title>App Service - Resolved in Australia Central</title>
+      <description>The earlier issue with App Service in Australia Central has been resolved. Customers should no longer experience delays.</description>
+      <pubDate>Sat, 07 Mar 2026 14:00:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>azure-004-global-advisory</guid>
+      <link>https://status.azure.com/en-us/status/history/</link>
+      <title>Active Directory - Advisory for all regions</title>
+      <description>We have an advisory notice for Azure Active Directory customers worldwide. This is informational only; no impact to authentication.</description>
+      <pubDate>Fri, 06 Mar 2026 09:30:00 Z</pubDate>
+    </item>
+  </channel>
+</rss>

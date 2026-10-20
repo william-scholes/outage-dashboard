@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.venv-*/
+venv/
+env/
+
+# State runtime artifacts (regenerated on run, never commit local customer or incident state).
+python_system/state/*.json
+python_system/state/*.ndjson
+python_system/state/*.lock
+python_system/state/.lock
+python_system/state/reports/
+python_system/state/raw/
+
+# Client & Customer privacy (never commit local client/customer specific data)
+clients.json
+*clients*.json
+*customer*.json
+!customer-regions-template.csv
+!python_system/examples/customers.json
+*.invoices.csv
+*billing*.csv
+
+# Test & Developer scratch dirs
+state_e2e_scratch/
+scratch/
+.scratch/
+_scratch/
+*.tmp
+_tmp_*.py
+*.probe.png
+*.probe.json
+
+# Playwright MCP browser session cache (console logs from headless
+# Chrome sessions, written under <repo>/.playwright-mcp/). Not source.
+.playwright-mcp/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor temp files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Misc build / dist
+build/
+dist/
+
+# Removed artifacts (kept as safety belts so they don't sneak back in
+# if anyone copies them from git history by accident).
+parser-tests/node_modules/
+parser-tests/outputs/
+parser-tests/parsers/
+parser-tests/package.json
+parser-tests/package-lock.json
+parser-tests/run-all-tests.js
+scripts/*
+scripts/probe_upstream.py
+!scripts/release-public.sh
+!scripts/*
+scripts/probe_upstream.py
+!scripts/release-public.shrelease-public.sh
+PLAN_2026-06-06.md
+SESSION_NOTES_2026-06-06.md
+SESSION_NOTES_2026-06-05.md
+docs/n8n-original-spec.md
+parser-testing.md
+test-data-input.html
+# Local developer notes & Claude IDE configs
+.claude/
+wills-notes.txt
+*-notes.txt
+docs/archive/
+
+# Internal business docs & development notes (not for public repo)
+internal/
+.agents/
+AGY.md
+ISSUES.md
+TODO.md
+branding.json
+*branding*.json
+

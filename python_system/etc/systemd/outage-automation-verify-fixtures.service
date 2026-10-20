@@ -1,0 +1,17 @@
+[Unit]
+Description=Outage Automation - periodic fixture schema drift check
+Documentation=https://github.com/william-scholes/outage-automation
+After=network.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=-/etc/systemd/system/outage-automation.env
+ExecStart=/bin/sh -c 'exec python3 "${OA_ROOT}/python_system/run.py" verify-fixtures --strict'
+StandardOutput=journal
+StandardError=journal
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+MemoryMax=128M
+TasksMax=4

@@ -1,0 +1,2 @@
+raw_id,service,severity,title,description,regions,link,published_at,expires_at,matched_customers,matched_count,last_seen_at
+EXAMPLE-DELETE-ME-azure-001,azure,info,Example outage for AlertHistory schema,Sample row — delete after import. Demonstrates column types for the AlertHistory table.,"[""Australia East"", ""Global""]",https://azure.status.microsoft,2026-06-05T12:00:00.000Z,2026-06-12T12:00:00.000Z,[],0,2026-06-05T12:00:00.000Z

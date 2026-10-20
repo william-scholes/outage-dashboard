@@ -1,0 +1,32 @@
+[Unit]
+Description=Outage Automation - dashboard HTTP server
+Documentation=https://github.com/william-scholes/outage-automation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Host-specific config (User=, ReadWritePaths=, etc.) belongs in a drop-in
+# under /etc/systemd/system/outage-automation-dashboard.service.d/. See
+# outage-automation.service.d/example.conf for a worked example.
+EnvironmentFile=/etc/systemd/system/outage-automation.env
+# systemd does not expand ${OA_ROOT} in ExecStart= path names, so we shell-out
+# the resolution. Bind address, port, auth user, password-file path all come
+# from the env file.
+ExecStart=/bin/sh -c 'exec "${OA_ROOT}/python_system/bin/oa-serve.sh"'
+# The dashboard reads state on every request; restart on any failure.
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# Resource limits
+MemoryMax=256M
+TasksMax=16
+
+[Install]
+WantedBy=multi-user.target

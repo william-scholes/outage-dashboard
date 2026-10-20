@@ -1,0 +1,17 @@
+# Caddy reverse proxy configuration for Outage Automation Dashboard
+# Upstream bound to 127.0.0.1:8765
+
+outages.local {
+    tls internal
+
+    header {
+        X-Frame-Options "SAMEORIGIN"
+        X-Content-Type-Options "nosniff"
+        X-XSS-Protection "1; mode=block"
+    }
+
+    reverse_proxy 127.0.0.1:8765 {
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-Proto {scheme}
+    }
+}

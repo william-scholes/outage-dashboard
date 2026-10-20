@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AWS Service Health Dashboard</title>
+    <link>https://status.aws.amazon.com/</link>
+    <description>AWS service health</description>
+    <lastBuildDate>Mon, 09 Mar 2026 05:00:00 Z</lastBuildDate>
+    <item>
+      <guid>https://status.aws.amazon.com/#s3-ap-southeast-2_1772917444</guid>
+      <link>https://status.aws.amazon.com/</link>
+      <title>Amazon S3 - Service disruption in Asia Pacific (Sydney)</title>
+      <description>Customers may experience increased error rates when accessing S3 buckets in the ap-southeast-2 region.</description>
+      <pubDate>Mon, 09 Mar 2026 04:45:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://status.aws.amazon.com/#ec2-ap-southeast-4_1772918000</guid>
+      <link>https://status.aws.amazon.com/</link>
+      <title>Amazon EC2 - Elevated error rates in Asia Pacific (Melbourne)</title>
+      <description>EC2 instances in ap-southeast-4 are reporting elevated error rates during instance launches.</description>
+      <pubDate>Sun, 08 Mar 2026 18:00:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://status.aws.amazon.com/#lambda-ap-southeast-2_1772800000</guid>
+      <link>https://status.aws.amazon.com/</link>
+      <title>AWS Lambda - [Resolved] Issue with delayed invocations in ap-southeast-2</title>
+      <description>The earlier delay issue with Lambda invocations in ap-southeast-2 has been resolved.</description>
+      <pubDate>Sat, 07 Mar 2026 12:00:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://status.aws.amazon.com/#dynamodb-eu-central-2_1772700000</guid>
+      <link>https://status.aws.amazon.com/</link>
+      <title>Amazon DynamoDB - Disruption in eu-central-2</title>
+      <description>DynamoDB is experiencing a service disruption in eu-central-2. Australia regions are unaffected.</description>
+      <pubDate>Fri, 06 Mar 2026 09:00:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://status.aws.amazon.com/#cloudfront-global_1772600000</guid>
+      <link>https://status.aws.amazon.com/</link>
+      <title>Amazon CloudFront - Global advisory</title>
+      <description>CloudFront has an advisory notice for all regions worldwide. No impact to traffic.</description>
+      <pubDate>Thu, 05 Mar 2026 16:30:00 Z</pubDate>
+    </item>
+  </channel>
+</rss>

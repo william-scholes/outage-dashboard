@@ -1,0 +1,15 @@
+[Unit]
+Description=Daily outage-automation state backup
+Requires=outage-automation-backup.service
+
+[Timer]
+# Fire at 03:30 local time each day, then every 24h. `Persistent=true` means
+# if the host was off, the next boot triggers a catch-up run.
+OnCalendar=*-*-* 03:30:00
+OnUnitActiveSec=1d
+Persistent=true
+AccuracySec=5min
+# Use the system clock for predictability across DST changes.
+
+[Install]
+WantedBy=timers.target

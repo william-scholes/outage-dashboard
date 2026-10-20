@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily Outage Automation fixture schema drift check
+Requires=outage-automation-verify-fixtures.service
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+RandomizedDelaySec=15min
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

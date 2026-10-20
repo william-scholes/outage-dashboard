@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Zscaler Trust Portal</title>
+    <link>https://trust.zscaler.com/</link>
+    <description>Zscaler service status and incident updates</description>
+    <lastBuildDate>Mon, 09 Mar 2026 06:00:00 Z</lastBuildDate>
+    <item>
+      <guid>zscaler-001-zia-outage</guid>
+      <link>https://trust.zscaler.com/incidents/</link>
+      <title>ZIA Service Outage in Asia Pacific Region</title>
+      <description>Customers may experience intermittent connectivity issues with Zscaler Internet Access. We are actively engaged and investigating.</description>
+      <pubDate>Mon, 09 Mar 2026 05:30:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>zscaler-002-zpa-degraded</guid>
+      <link>https://trust.zscaler.com/incidents/</link>
+      <title>ZPA - Degraded Performance in Sydney Datacenter</title>
+      <description>Zscaler Private Access users in the Sydney datacenter are reporting elevated login delays. Engineering is engaged.</description>
+      <pubDate>Sun, 08 Mar 2026 20:00:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>zscaler-003-zdx-resolved</guid>
+      <link>https://trust.zscaler.com/incidents/</link>
+      <title>ZDX Issue Resolved</title>
+      <description>The earlier issue with Zscaler Digital Experience monitoring in Australia has been resolved. No further impact.</description>
+      <pubDate>Sat, 07 Mar 2026 14:00:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>zscaler-004-zcc-maintenance</guid>
+      <link>https://trust.zscaler.com/incidents/</link>
+      <title>Scheduled Maintenance for ZCC Client Connector</title>
+      <description>Brief maintenance window for Zscaler Client Connector. Login may be temporarily slow.</description>
+      <pubDate>Fri, 06 Mar 2026 22:00:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>zscaler-005-mixed-zia-zpa</guid>
+      <link>https://trust.zscaler.com/incidents/</link>
+      <title>Issue with ZIA and ZPA in Europe</title>
+      <description>Both Zscaler Internet Access and Zscaler Private Access are reporting issues in our European datacenters.</description>
+      <pubDate>Thu, 05 Mar 2026 11:00:00 Z</pubDate>
+    </item>
+  </channel>
+</rss>

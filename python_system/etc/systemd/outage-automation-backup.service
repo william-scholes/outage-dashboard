@@ -1,0 +1,24 @@
+[Unit]
+Description=Outage Automation - snapshot the state directory (restic)
+Documentation=https://github.com/william-scholes/outage-automation
+# The dashboard and a fresh ingest run are read-mostly with a short copy
+# window, so this can race with either; the state is just JSON + NDJSON.
+
+[Service]
+Type=oneshot
+# Host-specific config (User=, ReadWritePaths=, etc.) belongs in a drop-in
+# under /etc/systemd/system/outage-automation-backup.service.d/. See
+# outage-automation.service.d/example.conf for a worked example.
+EnvironmentFile=/etc/systemd/system/outage-automation.env
+# systemd does not expand ${OA_ROOT} in ExecStart= path names, so we shell-out
+# the resolution. The wrapper reads OA_RESTIC_REPO, OA_RESTIC_PASSWORD_FILE,
+# and OA_ROOT from the env file. oa-backup.sh (tar.gz) remains available for
+# manual fallback — see docs/DEPLOYMENT.md.
+ExecStart=/bin/sh -c 'exec "${OA_ROOT}/python_system/bin/oa-backup-restic.sh"'
+StandardOutput=journal
+StandardError=journal
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only

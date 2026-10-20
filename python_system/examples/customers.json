@@ -1,0 +1,81 @@
+[
+  {
+    "customer_id": "demo-contoso",
+    "name": "Contoso Enterprises",
+    "subscriptions": {
+      "azure": [
+        "australia-east",
+        "global"
+      ],
+      "aws": [
+        "ap-southeast-2",
+        "global"
+      ],
+      "m365": [
+        "global"
+      ],
+      "cloudflare": [
+        "global"
+      ],
+      "atlassian": [
+        "global"
+      ]
+    },
+    "sub_services": {
+      "atlassian": [
+        "jira",
+        "confluence"
+      ]
+    }
+  },
+  {
+    "customer_id": "demo-fabrikam",
+    "name": "Fabrikam Telecommunications",
+    "subscriptions": {
+      "chorus": [
+        "avondale",
+        "kelburn"
+      ]
+    },
+    "sub_services": {
+      "chorus": [
+        "fibre",
+        "copper"
+      ]
+    }
+  },
+  {
+    "customer_id": "demo-acme",
+    "name": "Acme Power & Utilities",
+    "subscriptions": {
+      "vector": [
+        "auckland-central"
+      ]
+    },
+    "sub_services": {
+      "vector": [
+        "power",
+        "hv",
+        "lv"
+      ]
+    }
+  },
+  {
+    "customer_id": "demo-apex",
+    "name": "Apex Security Holdings",
+    "subscriptions": {
+      "zscaler": [
+        "global"
+      ],
+      "wiz": [
+        "global"
+      ]
+    },
+    "sub_services": {
+      "zscaler": [
+        "zia",
+        "zpa"
+      ]
+    }
+  }
+]

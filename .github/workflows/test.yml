@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master", "python-migration", "main" ]
+  pull_request:
+    branches: [ "master", "python-migration", "main" ]
+
+jobs:
+  test:
+    name: Test & Lint (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12", "3.13"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Initialize State
+        run: python python_system/run.py init
+
+      - name: Validate Customer & Region Mappings
+        run: python python_system/run.py lint-customers
+
+      - name: Run Unit Tests
+        run: PYTHONPATH=python_system python -m unittest discover -s python_system/tests
+
+      - name: Run End-to-End CLI & Dashboard Tests
+        run: python python_system/examples/test_e2e.py
+
+      - name: Strict Fixture Verification
+        run: python python_system/run.py verify-fixtures --strict
+
+      - name: Strict Event Linting
+        run: python python_system/run.py lint-events --strict

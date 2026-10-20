@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Microsoft Admin Center Status</title>
+    <link>https://status.cloud.microsoft/</link>
+    <description>Microsoft Admin Center Status</description>
+    <lastBuildDate>Sun, 08 Mar 2026 21:17:13 Z</lastBuildDate>
+    <item>
+      <guid isPermaLink="false">3cc663bd-2f68-4b61-aaa6-1b8510d63d47</guid>
+      <link>https://status.cloud.microsoft/</link>
+      <title>Microsoft Admin Center</title>
+      <description>&lt;div&gt;This site is updated when service issues are preventing tenant administrators from accessing Service health in the Microsoft 365 admin center. Alternatively, customers can reference&amp;nbsp;&lt;a href="https://www.twitter.com/MSFT365Status" target="_blank"&gt;https://www.twitter.com/MSFT365Status&lt;/a&gt;&amp;nbsp;for additional insights into widespread, active incidents.&lt;/div&gt;</description>
+      <pubDate>Sun, 08 Mar 2026 21:17:00 Z</pubDate>
+      <status>Available</status>
+    </item>
+    <item>
+      <guid isPermaLink="false">7e9d2a1b-3c4d-4e5f-9a8b-0c1d2e3f4a5b</guid>
+      <link>https://status.cloud.microsoft/exchange-online-advisory</link>
+      <title>Exchange Online - Intermittent Send Delays in Australia</title>
+      <description>&lt;div&gt;Engineers are investigating reports of intermittent email send delays affecting Exchange Online users in Australia and APAC regions. Impact appears to be on outbound message submission only.&lt;/div&gt;</description>
+      <pubDate>Mon, 09 Mar 2026 03:42:00 Z</pubDate>
+      <status>Investigating</status>
+    </item>
+    <item>
+      <guid isPermaLink="false">2c4d6e8f-1a3b-5c7d-9e0f-2a4b6c8d0e1f</guid>
+      <link>https://status.cloud.microsoft/teams-outage-asia</link>
+      <title>Microsoft Teams Service Outage in Asia and Australia</title>
+      <description>&lt;div&gt;Teams service is currently unavailable for users in Asia and Australia regions. Users are unable to sign in. Engineers are actively engaged.&lt;/div&gt;</description>
+      <pubDate>Sat, 07 Mar 2026 11:15:00 Z</pubDate>
+      <status>Investigating</status>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,143 @@
+{
+  "props": {
+    "pageProps": {
+      "error": null,
+      "data": {
+        "requiresUpgrade": false,
+        "accessGranted": true,
+        "askForPassword": false,
+        "name": "Rewst AU",
+        "statuspageKey": "5de11b3c1bbfbf03",
+        "logoUrl": "https://dengzz4mu7d7k.cloudfront.net/5a67e83e817a85fc4d3a3fb98120322d.png",
+        "supportUrl": null,
+        "websiteUrl": "https://rewst.io",
+        "defaultTimePeriod": "30d",
+        "allowSearchIndex": true,
+        "enablePerformanceMetrics": true,
+        "timezone": "US/Eastern",
+        "isPrivatePage": false,
+        "domain": "status-au.rewst.io",
+        "environment": "production",
+        "authSecret": "62e352a92a6449b5a1ac74e9e78122fd",
+        "premiumFeaturesInUse": [
+          "Brand Logo"
+        ],
+        "darkMode": false,
+        "atSubscriberLimit": false,
+        "components": [
+          {
+            "key": "c6c7bbb7be07e06a",
+            "position": "2026-05-04 17:13:39.974232",
+            "type": "group",
+            "name": "Workflows",
+            "description": null,
+            "status": {
+              "state": "operational"
+            },
+            "uptime_history": null,
+            "monitor": null,
+            "group": "workflows-au",
+            "statuspage": "5de11b3c1bbfbf03",
+            "autopublish": true,
+            "children": [
+              {
+                "key": "lTcpYe",
+                "name": "Workflow Engine Performance (AU)",
+                "type": "heartbeat",
+                "monitor": "lTcpYe",
+                "status": {
+                  "state": "operational"
+                }
+              }
+            ],
+            "created": "2026-05-04T17:13:39.975106Z",
+            "updated": "2026-05-04T17:14:06.549011Z"
+          },
+          {
+            "key": "8033365456a543c4",
+            "position": "2026-05-04 17:13:46.942209",
+            "type": "check",
+            "name": "Rewst App",
+            "description": null,
+            "status": {
+              "state": "operational"
+            },
+            "uptime_history": null,
+            "monitor": "MurCqT",
+            "group": null,
+            "statuspage": "5de11b3c1bbfbf03",
+            "autopublish": true,
+            "children": null,
+            "created": "2026-05-04T17:13:46.942456Z",
+            "updated": "2026-06-01T15:51:40.058651Z"
+          },
+          {
+            "key": "727353e24437662d",
+            "position": "2026-05-04 17:13:50.621048",
+            "type": "heartbeat",
+            "name": "App Builder Apps",
+            "description": "Apps hosted in the App Builder platform",
+            "status": {
+              "state": "operational"
+            },
+            "uptime_history": null,
+            "monitor": "IFKGvw",
+            "group": null,
+            "statuspage": "5de11b3c1bbfbf03",
+            "autopublish": true,
+            "children": null,
+            "created": "2026-05-04T17:13:50.621596Z",
+            "updated": "2026-06-01T15:53:07.084804Z"
+          },
+          {
+            "key": "03a23c7bf0c70be9",
+            "position": "2026-05-04 17:13:55.281801",
+            "type": "heartbeat",
+            "name": "RoboRewsty",
+            "description": null,
+            "status": {
+              "state": "operational"
+            },
+            "uptime_history": null,
+            "monitor": "HlVpiL",
+            "group": null,
+            "statuspage": "5de11b3c1bbfbf03",
+            "autopublish": true,
+            "children": null,
+            "created": "2026-05-04T17:13:55.282373Z",
+            "updated": "2026-05-04T17:13:58.664838Z"
+          }
+        ],
+        "status": {
+          "state": "operational"
+        },
+        "incidents": [
+          {
+            "id": "rewst-inc-1",
+            "name": "AU Workflow Engine Degraded Execution",
+            "state": "investigating",
+            "created_at": "2026-09-26T07:00:00.000Z",
+            "updates": [
+              {
+                "body": "Investigating delayed workflow triggers in Australia East."
+              }
+            ],
+            "components": [
+              "Workflow Engine Performance (AU)"
+            ]
+          }
+        ],
+        "maintenance_windows": [],
+        "canonical": "https://status-au.rewst.io/"
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/",
+  "query": {},
+  "buildId": "ZzL0VRb1H3XxkWk3I5ePT",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

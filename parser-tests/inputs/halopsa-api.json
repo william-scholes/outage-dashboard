@@ -1,0 +1,79 @@
+{
+  "result": {
+    "status_overall": {
+      "updated": "2026-09-26T07:28:05.462Z",
+      "status": "Degraded Performance",
+      "status_code": 300
+    },
+    "status": [
+      {
+        "_id": "63ef48d0eaf29c05352ada51",
+        "name": "Halo Core Application",
+        "status": "Degraded Performance",
+        "status_code": 300
+      },
+      {
+        "_id": "63ef48dfd22db205340e3ea5",
+        "name": "Automated Integration Syncs",
+        "status": "Operational",
+        "status_code": 100
+      }
+    ],
+    "incidents": [
+      {
+        "_id": "halo-inc-101",
+        "name": "Elevated API Latency on Australia East Cluster",
+        "datetime_open": "2026-09-26T06:00:00.000Z",
+        "datetime_close": null,
+        "current_active": true,
+        "messages": [
+          {
+            "details": "Engineers are investigating increased response times impacting Australian tenants.",
+            "state": 300,
+            "status": 100,
+            "datetime": "2026-09-26T06:05:00.000Z"
+          }
+        ],
+        "containers_affected": [
+          {
+            "_id": "container-au",
+            "name": "Australia"
+          }
+        ],
+        "components_affected": [
+          {
+            "_id": "63ef48d0eaf29c05352ada51",
+            "name": "Halo Core Application"
+          }
+        ]
+      },
+      {
+        "_id": "halo-inc-100",
+        "name": "Integration Webhook Delays",
+        "datetime_open": "2026-09-25T01:00:00.000Z",
+        "datetime_close": "2026-09-25T03:00:00.000Z",
+        "current_active": false,
+        "messages": [
+          {
+            "details": "This incident has been fully resolved.",
+            "state": 100,
+            "status": 400,
+            "datetime": "2026-09-25T03:00:00.000Z"
+          }
+        ],
+        "containers_affected": [
+          {
+            "_id": "container-global",
+            "name": "Global"
+          }
+        ],
+        "components_affected": [
+          {
+            "_id": "63ef48dfd22db205340e3ea5",
+            "name": "Automated Integration Syncs"
+          }
+        ]
+      }
+    ]
+  }
+}

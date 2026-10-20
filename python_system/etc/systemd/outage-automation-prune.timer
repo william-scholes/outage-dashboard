@@ -1,0 +1,13 @@
+[Unit]
+Description=Weekly outage-automation events.ndjson pruning
+Requires=outage-automation-prune.service
+
+[Timer]
+# Fire every Sunday at 02:00 local time. `Persistent=true` means if the host
+# was off at the scheduled time, the next boot triggers a catch-up run.
+OnCalendar=Sun *-*-* 02:00:00
+Persistent=true
+AccuracySec=5min
+
+[Install]
+WantedBy=timers.target

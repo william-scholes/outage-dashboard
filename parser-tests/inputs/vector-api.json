@@ -1,0 +1,379 @@
+[
+  {
+    "plannedOutageId": 44715,
+    "switchingProposalNumber": "D-91565",
+    "statusId": 3,
+    "status": {
+      "statusId": 3,
+      "statusDescription": "Planning Approved"
+    },
+    "suburb": "Te Atatu Peninsula",
+    "type": "HV",
+    "useAlternativeDates": false,
+    "updatedAt": "2026-07-31T03:36:45.643Z",
+    "changeReasonId": 39,
+    "changeReason": {
+      "reasonId": 39,
+      "reasonDescription": "Major Infrastructure Project"
+    },
+    "plannedOutageBlocks": [
+      {
+        "plannedOutageBlockId": 53704,
+        "plannedOutageId": 44715,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T09:00:00Z",
+        "advertisedEndDateTime": "2026-08-19T16:00:00Z",
+        "alternativeStartDateTime": "2026-08-26T09:00:00Z",
+        "alternativeEndDateTime": "2026-08-26T16:00:00Z",
+        "updatedAt": "2026-07-31T03:36:45.653Z",
+        "cancelledReason": null,
+        "transformers": [
+          {
+            "transformerId": 374358,
+            "transformerName": "TB1393",
+            "gisCode": "5545234"
+          }
+        ]
+      }
+    ],
+    "cancelledReason": null,
+    "postponedReason": null
+  },
+  {
+    "plannedOutageId": 45159,
+    "switchingProposalNumber": "D-92266",
+    "statusId": 3,
+    "status": {
+      "statusId": 3,
+      "statusDescription": "Planning Approved"
+    },
+    "suburb": "Auckland Central",
+    "type": "HV",
+    "useAlternativeDates": false,
+    "updatedAt": "2026-08-02T22:35:50.963Z",
+    "changeReasonId": 39,
+    "changeReason": {
+      "reasonId": 39,
+      "reasonDescription": "Major Infrastructure Project"
+    },
+    "plannedOutageBlocks": [
+      {
+        "plannedOutageBlockId": 54255,
+        "plannedOutageId": 45159,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T10:00:00Z",
+        "advertisedEndDateTime": "2026-08-19T12:00:00Z",
+        "alternativeStartDateTime": "2026-08-26T10:00:00Z",
+        "alternativeEndDateTime": "2026-08-26T12:00:00Z",
+        "updatedAt": "2026-08-02T22:35:50.973Z",
+        "cancelledReason": null,
+        "transformers": [
+          {
+            "transformerId": 394099,
+            "transformerName": "C-4314",
+            "gisCode": "179349318"
+          }
+        ]
+      }
+    ],
+    "cancelledReason": null,
+    "postponedReason": null
+  },
+  {
+    "plannedOutageId": 43595,
+    "switchingProposalNumber": "N-90378",
+    "statusId": 3,
+    "status": {
+      "statusId": 3,
+      "statusDescription": "Planning Approved"
+    },
+    "suburb": "Takanini",
+    "type": "HV",
+    "useAlternativeDates": false,
+    "updatedAt": "2026-08-04T21:42:58.133Z",
+    "changeReasonId": 37,
+    "changeReason": {
+      "reasonId": 37,
+      "reasonDescription": "Major Outage for Maintenance"
+    },
+    "plannedOutageBlocks": [
+      {
+        "plannedOutageBlockId": 52555,
+        "plannedOutageId": 43595,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T11:00:00Z",
+        "advertisedEndDateTime": "2026-08-19T14:00:00Z",
+        "alternativeStartDateTime": "2026-11-25T10:00:00Z",
+        "alternativeEndDateTime": "2026-11-25T13:00:00Z",
+        "updatedAt": "2026-08-04T21:42:58.143Z",
+        "cancelledReason": null,
+        "transformers": [
+          {
+            "transformerId": 357076,
+            "transformerName": "S-3525",
+            "gisCode": "2302897"
+          },
+          {
+            "transformerId": 357111,
+            "transformerName": "S-4776",
+            "gisCode": "144984080"
+          },
+          {
+            "transformerId": 392253,
+            "transformerName": "S-25168",
+            "gisCode": "146471407"
+          }
+        ]
+      }
+    ],
+    "cancelledReason": null,
+    "postponedReason": null
+  },
+  {
+    "plannedOutageId": 43535,
+    "switchingProposalNumber": "E-90284",
+    "statusId": 3,
+    "status": {
+      "statusId": 3,
+      "statusDescription": "Planning Approved"
+    },
+    "suburb": "Silverdale",
+    "type": "HV",
+    "useAlternativeDates": false,
+    "updatedAt": "2026-08-11T02:11:29.14Z",
+    "changeReasonId": 33,
+    "changeReason": {
+      "reasonId": 33,
+      "reasonDescription": "Overhead Maintenance"
+    },
+    "plannedOutageBlocks": [
+      {
+        "plannedOutageBlockId": 52512,
+        "plannedOutageId": 43535,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T18:00:00Z",
+        "advertisedEndDateTime": "2026-08-20T08:00:00Z",
+        "alternativeStartDateTime": "2026-08-26T18:00:00Z",
+        "alternativeEndDateTime": "2026-08-27T08:00:00Z",
+        "updatedAt": "2026-08-11T02:11:29.16Z",
+        "cancelledReason": null,
+        "transformers": []
+      },
+      {
+        "plannedOutageBlockId": 52482,
+        "plannedOutageId": 43535,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T20:30:00Z",
+        "advertisedEndDateTime": "2026-08-20T06:00:00Z",
+        "alternativeStartDateTime": "2026-08-26T20:30:00Z",
+        "alternativeEndDateTime": "2026-08-27T06:00:00Z",
+        "updatedAt": "2026-08-11T02:11:29.157Z",
+        "cancelledReason": null,
+        "transformers": [
+          {
+            "transformerId": 407838,
+            "transformerName": "5784",
+            "gisCode": "63426396"
+          }
+        ]
+      },
+      {
+        "plannedOutageBlockId": 52480,
+        "plannedOutageId": 43535,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T20:30:00Z",
+        "advertisedEndDateTime": "2026-08-20T06:00:00Z",
+        "alternativeStartDateTime": "2026-08-26T20:30:00Z",
+        "alternativeEndDateTime": "2026-08-27T06:00:00Z",
+        "updatedAt": "2026-08-11T02:11:29.167Z",
+        "cancelledReason": null,
+        "transformers": []
+      }
+    ],
+    "cancelledReason": null,
+    "postponedReason": null
+  },
+  {
+    "plannedOutageId": 43270,
+    "switchingProposalNumber": "B-89936",
+    "statusId": 3,
+    "status": {
+      "statusId": 3,
+      "statusDescription": "Planning Approved"
+    },
+    "suburb": "Takanini",
+    "type": "HV",
+    "useAlternativeDates": false,
+    "updatedAt": "2026-07-29T22:47:28.323Z",
+    "changeReasonId": 36,
+    "changeReason": {
+      "reasonId": 36,
+      "reasonDescription": "Underground Maintenance"
+    },
+    "plannedOutageBlocks": [
+      {
+        "plannedOutageBlockId": 52198,
+        "plannedOutageId": 43270,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T18:00:00Z",
+        "advertisedEndDateTime": "2026-08-19T20:00:00Z",
+        "alternativeStartDateTime": "2026-08-20T18:00:00Z",
+        "alternativeEndDateTime": "2026-08-20T20:00:00Z",
+        "updatedAt": "2026-07-29T22:47:28.347Z",
+        "cancelledReason": null,
+        "transformers": [
+          {
+            "transformerId": 255014,
+            "transformerName": "S-3589",
+            "gisCode": "2236836"
+          },
+          {
+            "transformerId": 255030,
+            "transformerName": "S-592",
+            "gisCode": "2242906"
+          }
+        ]
+      },
+      {
+        "plannedOutageBlockId": 52274,
+        "plannedOutageId": 43270,
+        "blockStatusId": 3,
+        "blockStatus": {
+          "blockStatusId": 3,
+          "blockStatusDescription": "Planning Approved"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-20T06:00:00Z",
+        "advertisedEndDateTime": "2026-08-20T08:00:00Z",
+        "alternativeStartDateTime": "2026-08-21T06:00:00Z",
+        "alternativeEndDateTime": "2026-08-21T08:00:00Z",
+        "updatedAt": "2026-07-29T22:47:28.353Z",
+        "cancelledReason": null,
+        "transformers": [
+          {
+            "transformerId": 255014,
+            "transformerName": "S-3589",
+            "gisCode": "2236836"
+          },
+          {
+            "transformerId": 255030,
+            "transformerName": "S-592",
+            "gisCode": "2242906"
+          }
+        ]
+      }
+    ],
+    "cancelledReason": null,
+    "postponedReason": null
+  },
+  {
+    "plannedOutageId": 42972,
+    "switchingProposalNumber": "E-89504",
+    "statusId": 5,
+    "status": {
+      "statusId": 5,
+      "statusDescription": "Cancelled"
+    },
+    "suburb": "North Piha",
+    "type": "HV",
+    "useAlternativeDates": false,
+    "updatedAt": "2026-08-11T22:46:28.253Z",
+    "changeReasonId": 36,
+    "changeReason": {
+      "reasonId": 36,
+      "reasonDescription": "Underground Maintenance"
+    },
+    "plannedOutageBlocks": [
+      {
+        "plannedOutageBlockId": 51796,
+        "plannedOutageId": 42972,
+        "blockStatusId": 5,
+        "blockStatus": {
+          "blockStatusId": 5,
+          "blockStatusDescription": "Cancelled"
+        },
+        "isAdvertised": true,
+        "previouslyApproved": true,
+        "type": "HV",
+        "advertisedStartDateTime": "2026-08-19T20:30:00Z",
+        "advertisedEndDateTime": "2026-08-20T05:30:00Z",
+        "alternativeStartDateTime": null,
+        "alternativeEndDateTime": null,
+        "updatedAt": "2026-08-11T22:46:28.61Z",
+        "cancelledReason": {
+          "changeReasonId": 60,
+          "changeReasonDescription": "this work being combined with another project",
+          "updatedAt": "2026-08-11T22:46:28.61Z"
+        },
+        "transformers": [
+          {
+            "transformerId": 364492,
+            "transformerName": "1880",
+            "gisCode": "6365008"
+          }
+        ]
+      }
+    ],
+    "cancelledReason": {
+      "changeReasonId": 60,
+      "changeReasonDescription": "this work being combined with another project",
+      "updatedAt": "2026-08-11T22:46:28.253Z"
+    },
+    "postponedReason": {
+      "changeReasonId": 56,
+      "changeReasonDescription": "this work being combined with another project",
+      "updatedAt": "2026-08-11T22:22:27.483Z"
+    }
+  }
+]

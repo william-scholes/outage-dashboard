@@ -1,0 +1,31 @@
+[Unit]
+Description=Outage Automation - ingest from all providers
+Documentation=https://github.com/william-scholes/outage-automation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Host-specific config (User=, ReadWritePaths=, etc.) belongs in a drop-in
+# under /etc/systemd/system/outage-automation.service.d/. See
+# outage-automation.service.d/example.conf for a worked example.
+EnvironmentFile=/etc/systemd/system/outage-automation.env
+# systemd does not expand ${OA_ROOT} in ExecStart= path names, so we shell-out
+# the resolution. `oa` resolves its own python path internally.
+ExecStart=/bin/sh -c 'exec "${OA_ROOT}/python_system/bin/oa-run-all.sh"'
+# `oa run-all` exits 1 when ANY provider fails. For systemd we treat that
+# as "the run completed and produced a report" — provider-level failures
+# are recorded in state/reports/<run-id>.json and visible via
+# `oa status`. Without this, every transient provider outage would
+# mark the unit failed and trigger spurious "service failed" alerts.
+SuccessExitStatus=1
+StandardOutput=journal
+StandardError=journal
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# Resource limits
+MemoryMax=256M
+TasksMax=8

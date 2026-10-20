@@ -1,0 +1,15 @@
+[Unit]
+Description=Run outage-automation every 5 minutes
+Requires=outage-automation.service
+
+[Timer]
+# Run 1 minute after boot, then every 5 minutes.
+OnBootSec=1min
+OnUnitActiveSec=5min
+# If the system was off, run on next boot to catch up once.
+Persistent=true
+# Use the system clock for predictability across DST changes.
+AccuracySec=10s
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,585 @@
+Service,Region Code,Display Name
+azure,australia-east,Australia East
+azure,australia-southeast,Australia Southeast
+azure,australia-central,Australia Central
+azure,australia-central-2,Australia Central 2
+azure,global,Global
+aws,ap-southeast-2,ap-southeast-2
+aws,ap-southeast-4,ap-southeast-4
+aws,global,Global
+zscaler,global,Global
+cloudflare,global,Global
+cloudflare,australia,Australia
+connectwise,global,Global
+m365,global,Global
+m365,australia,Australia
+m365,new-zealand,New Zealand
+googleworkspace,global,Global
+googleworkspace,australia,Australia
+googleworkspace,new-zealand,New Zealand
+googleai,global,Global
+googleai,australia,Australia
+googleai,new-zealand,New Zealand
+googleai,us,United States
+googleai,europe,Europe
+googleai,apac,Asia Pacific
+atlassian,global,Global
+xero,global,Global
+xero,australia,Australia
+xero,new-zealand,New Zealand
+halopsa,global,Global
+halopsa,australia,Australia
+vector,global,Global
+vector,new-zealand,New Zealand
+vector,auckland,Auckland
+vector,te-atatu-peninsula,Te Atatu Peninsula
+vector,auckland-central,Auckland Central
+vector,takanini,Takanini
+vector,silverdale,Silverdale
+zscaler,auckland-ii,Auckland II
+zscaler,canberra-i,Canberra I
+zscaler,melbourne-ii,Melbourne II
+zscaler,perth-i,Perth I
+zscaler,sydney-iii,Sydney III
+zscaler,sydney-v,Sydney V
+chorus,avondale,Avondale
+chorus,hibiscus-coast,Hibiscus Coast
+chorus,kelburn,Kelburn
+chorus,ngongotaha,Ngongotaha
+chorus,taneatua,Taneatua
+chorus,glen-oroua,Glen Oroua
+chorus,kaponga,Kaponga
+chorus,mokauiti,Mokauiti
+chorus,massey,Massey
+chorus,browns-bay-exchange,Browns Bay Exchange
+chorus,dargaville,Dargaville
+chorus,multiple,Multiple
+chorus,palmerston,Palmerston
+chorus,remuera,Remuera
+chorus,mayoral-drive,Mayoral Drive
+chorus,mangere,Mangere
+chorus,papakura,Papakura
+chorus,warkworth,Warkworth
+chorus,karamea,Karamea
+chorus,taheke,Taheke
+chorus,torbay,Torbay
+chorus,waiuku,Waiuku
+chorus,clevedon,Clevedon
+chorus,tikitiki,Tikitiki
+chorus,red-beach,Red Beach
+chorus,birkenhead,Birkenhead
+chorus,stoke,Stoke
+chorus,oamaru,Oamaru
+chorus,albany,Albany
+chorus,upper-hutt-north,Upper Hutt North
+chorus,kaikoura,Kaikoura
+chorus,tamaki,Tamaki
+chorus,albury,Albury
+chorus,taradale,Taradale
+chorus,mangawhai,Mangawhai
+chorus,rotongaro,Rotongaro
+chorus,okaihau,Okaihau
+chorus,ellerslie,Ellerslie
+chorus,tuakau,Tuakau
+chorus,kaiwaka,Kaiwaka
+chorus,otahuhu,Otahuhu
+chorus,hataitai,Hataitai
+chorus,loburn,Loburn
+chorus,east-tamaki,East Tamaki
+chorus,plimmerton,Plimmerton
+chorus,masterton,Masterton
+chorus,waiheke,Waiheke
+chorus,wellsford,Wellsford
+chorus,whitby,Whitby
+chorus,te-aroha,Te Aroha
+chorus,blenheim,Blenheim
+chorus,kirwee,Kirwee
+chorus,manakau-h-cabinet,Manakau H Cabinet
+chorus,three-kings,Three Kings
+chorus,ponsonby,Ponsonby
+chorus,rolleston,Rolleston
+chorus,mapua,Mapua
+chorus,henderson,Henderson
+chorus,hanmer-springs,Hanmer Springs
+chorus,hillmorton,Hillmorton
+chorus,te-awamutu,Te Awamutu
+chorus,onehunga,Onehunga
+chorus,blockhouse-bay,Blockhouse Bay
+chorus,taharoa,Taharoa
+chorus,st-heliers,St Heliers
+chorus,maxwells-line,Maxwells Line
+chorus,cambridge,Cambridge
+chorus,huntly,Huntly
+chorus,lynmore,Lynmore
+chorus,birkdale,Birkdale
+chorus,mt-albert,Mt Albert
+chorus,new-lynn,New Lynn
+chorus,forrest-hill,Forrest Hill
+chorus,levin,Levin
+chorus,timaru,Timaru
+chorus,dunedin,Dunedin
+chorus,martinborough,Martinborough
+chorus,fielding,Fielding
+chorus,otara,Otara
+chorus,winton,Winton
+chorus,bulls,Bulls
+chorus,whangamata,Whangamata
+chorus,mt-roskill,Mt Roskill
+chorus,kilbirnie,Kilbirnie
+chorus,kerikeri,Kerikeri
+chorus,woodville,Woodville
+chorus,mangonui,Mangonui
+chorus,leeston,Leeston
+chorus,runanga,Runanga
+chorus,ahipara,Ahipara
+chorus,clyde,Clyde
+chorus,devonport,Devonport
+chorus,papatoetoe,Papatoetoe
+chorus,taupo,Taupo
+chorus,waituna-west,Waituna West
+chorus,belmont,Belmont
+chorus,kamo,Kamo
+chorus,halfway-bush,Halfway Bush
+chorus,invercargill-east,Invercargill East
+chorus,opononi,Opononi
+chorus,tauranga,Tauranga
+chorus,manurewa,Manurewa
+chorus,lower-hutt,Lower Hutt
+chorus,whitianga,Whitianga
+chorus,eastbourne,Eastbourne
+chorus,ohope,Ohope
+chorus,wairoa,Wairoa
+chorus,darfield,Darfield
+chorus,ruakituri,Ruakituri
+chorus,glen-eden,Glen Eden
+chorus,peria,Peria
+chorus,patumahoe,Patumahoe
+chorus,franz-josef,Franz Josef
+chorus,fox-glacier,Fox Glacier
+chorus,marewa,Marewa
+chorus,richmond,Richmond
+chorus,whakapara,Whakapara
+chorus,pahiatua,Pahiatua
+chorus,hokitika,Hokitika
+chorus,amberley-as-cabinet,Amberley As Cabinet
+chorus,havelock-north,Havelock North
+chorus,taupiri,Taupiri
+chorus,tuatapere,Tuatapere
+chorus,lawrence,Lawrence
+chorus,titirangi,Titirangi
+chorus,palmerston-north,Palmerston North
+chorus,mt-eden,Mt Eden
+chorus,waiau,Waiau
+chorus,waimauku,Waimauku
+chorus,pakuranga,Pakuranga
+chorus,paparoa,Paparoa
+chorus,picton,Picton
+chorus,south-kaipara-head,South Kaipara Head
+chorus,glenbrook,Glenbrook
+chorus,te-kauwhata,Te Kauwhata
+chorus,lower-moutere,Lower Moutere
+chorus,upper-moutere,Upper Moutere
+chorus,scargill,Scargill
+chorus,takaka,Takaka
+chorus,nelson,Nelson
+chorus,kaukapakapa,Kaukapakapa
+chorus,pirinoa,Pirinoa
+chorus,raurimu,Raurimu
+chorus,te-atatu,Te Atatu
+chorus,washdyke,Washdyke
+chorus,auckland,Auckland
+chorus,waitakere,Waitakere
+chorus,inchbonnie,Inchbonnie
+chorus,hastings,Hastings
+chorus,marton,Marton
+chorus,waitakaruru,Waitakaruru
+vector,albany,Albany
+vector,glen-eden,Glen Eden
+vector,henderson,Henderson
+vector,manurewa,Manurewa
+vector,north-piha,North Piha
+vector,papakura,Papakura
+vector,penrose,Penrose
+vector,remuera,Remuera
+vector,takapuna,Takapuna
+vector,ahuroa,Ahuroa
+vector,birkdale,Birkdale
+vector,blockhouse-bay,Blockhouse Bay
+vector,beach-haven,Beach Haven
+vector,belmont,Belmont
+vector,cbd,Cbd
+vector,chatswood,Chatswood
+vector,clevedon,Clevedon
+vector,clover-park,Clover Park
+vector,coatesville,Coatesville
+vector,east-tamaki,East Tamaki
+vector,favona,Favona
+vector,forrest-hill,Forrest Hill
+vector,glen-innes,Glen Innes
+vector,glendene,Glendene
+vector,glendowie,Glendowie
+vector,glenfield,Glenfield
+vector,helensville,Helensville
+vector,henderson-valley,Henderson Valley
+vector,highland-park,Highland Park
+vector,kawakawa-bay,Kawakawa Bay
+vector,kingsland,Kingsland
+vector,komokoriki,Komokoriki
+vector,kumeu,Kumeu
+vector,leigh,Leigh
+vector,long-bay,Long Bay
+vector,lucas-heights,Lucas Heights
+vector,mangere,Mangere
+vector,mount-albert,Mount Albert
+vector,mount-eden,Mount Eden
+vector,mount-roskill,Mount Roskill
+vector,mt-roskill,Mt Roskill
+vector,mairangi-bay,Mairangi Bay
+vector,makarau,Makarau
+vector,massey,Massey
+vector,mount-wellignton,Mount Wellignton
+vector,ness-valley,Ness Valley
+vector,northcross,Northcross
+vector,new-lynn,New Lynn
+vector,northcote-point,Northcote Point
+vector,onehunga,Onehunga
+vector,orakei,Orakei
+vector,parnell,Parnell
+vector,pakuranga,Pakuranga
+vector,papatoetoe,Papatoetoe
+vector,puhoi,Puhoi
+vector,ranui,Ranui
+vector,rosedale,Rosedale
+vector,sandringham,Sandringham
+vector,south-head,South Head
+vector,sunnyvale,Sunnyvale
+vector,titirangi,Titirangi
+vector,topuni,Topuni
+vector,wellsford,Wellsford
+vector,wiri,Wiri
+vector,wade-heads,Wade Heads
+vector,waiatarua,Waiatarua
+vector,waiwera,Waiwera
+vector,whenuapai,Whenuapai
+vector,burswood,Burswood
+vector,warkworth,Warkworth
+chorus,wellington,Wellington
+vector,mahurangi-west,Mahurangi West
+vector,kaukapakapa,Kaukapakapa
+vector,torbay,Torbay
+chorus,hunua,Hunua
+chorus,porirua,Porirua
+vector,epsom,Epsom
+chorus,mahurangi,Mahurangi
+chorus,matakana,Matakana
+chorus,helensville,Helensville
+chorus,blairlogie,Blairlogie
+chorus,dunsandel,Dunsandel
+chorus,temuka,Temuka
+vector,bucklands-beach,Bucklands Beach
+vector,east,East
+vector,herne-bay,Herne Bay
+vector,huapai,Huapai
+vector,manukau,Manukau
+vector,st-johns,St Johns
+vector,te-atatu-south,Te Atatu South
+vector,westgate,Westgate
+vector,westlake,Westlake
+vector,westmere,Westmere
+vector,waitakere,Waitakere
+chorus,wellington-south,Wellington South
+chorus,rotorua,Rotorua
+vector,mt-albert,Mt. Albert
+vector,pakiri,Pakiri
+vector,patuparoa,Patuparoa
+vector,milford,Milford
+chorus,gisborne,Gisborne
+chorus,te-puna,Te Puna
+chorus,wakatipu,Wakatipu
+chorus,bluff,Bluff
+chorus,arthurs-pass,Arthurs Pass
+chorus,okawa,Okawa
+chorus,whenuakite,Whenuakite
+chorus,bay-view,Bay View
+chorus,cheltenham,Cheltenham
+vector,ellerslie,Ellerslie
+vector,howick,Howick
+vector,st-helliers,St Helliers
+vector,wairau-valley,Wairau Valley
+vector,mellons-bay,Mellons Bay
+chorus,kawakawa,Kawakawa
+chorus,waihao-downs,Waihao Downs
+chorus,opotiki,Opotiki
+chorus,mangatangi,Mangatangi
+vector,whitford,Whitford
+vector,auckland-cbd,Auckland Cbd
+vector,waitoki,Waitoki
+vector,avondale,Avondale
+vector,swanson,Swanson
+chorus,ikamatua,Ikamatua
+vector,campbells-bay,Campbells Bay
+vector,weymouth,Weymouth
+chorus,waimate,Waimate
+chorus,tapawera,Tapawera
+chorus,murchison,Murchison
+chorus,khandallah,Khandallah
+vector,mt-wellington,Mt Wellington
+chorus,pukehina,Pukehina
+vector,big-omaha,Big Omaha
+chorus,johnsonville,Johnsonville
+vector,pakuranga-heights,Pakuranga Heights
+vector,otara,Otara
+chorus,beachlands,Beachlands
+chorus,spotswood,Spotswood
+chorus,wanaka,Wanaka
+vector,flat-bush,Flat Bush
+chorus,cromwell,Cromwell
+chorus,island,Island
+chorus,kiokio,Kiokio
+vector,windsor-park,Windsor Park
+chorus,alfredton,Alfredton
+chorus,puketitiri,Puketitiri
+chorus,franz-josef-glacier,Franz Josef Glacier
+chorus,whataroa,Whataroa
+chorus,napier,Napier
+chorus,motueka,Motueka
+chorus,taihape,Taihape
+chorus,onerahi,Onerahi
+vector,greenlane,Greenlane
+vector,ardmore,Ardmore
+chorus,invercargill,Invercargill
+chorus,southbridge,Southbridge
+chorus,glenfield,Glenfield
+vector,clendon,Clendon
+chorus,waitangirua,Waitangirua
+chorus,otorohanga,Otorohanga
+vector,grafton,Grafton
+chorus,whenuapai,Whenuapai
+chorus,colville,Colville
+vector,sommerville,Sommerville
+vector,morningside,Morningside
+vector,orere-point,Orere Point
+vector,waiheke,Waiheke
+wiz,global,Global
+wiz,us,United States
+wiz,eu,Europe
+wiz,apac,Asia Pacific
+wiz,me-central-1,ME Central 1 (UAE)
+wiz,us-east-1,US East 1 (N. Virginia)
+wiz,us-west-2,US West 2 (Oregon)
+chorus,kumeu,Kumeu
+chorus,te-kuiti,Te Kuiti
+vector,conifer-grove,Conifer Grove
+vector,hillsborough,Hillsborough
+vector,matakana,Matakana
+vector,otahuhu,Otahuhu
+vector,okura,Okura
+vector,onetangi,Onetangi
+vector,rem,Rem
+vector,te-arai,Te Arai
+chorus,runciman,Runciman
+chorus,waipukurau,Waipukurau
+chorus,john-f-kennedy-drive-1,John F Kennedy Drive 1
+chorus,kensington,Kensington
+chorus,kaharoa,Kaharoa
+chorus,leigh,Leigh
+vector,waiake,Waiake
+vector,alfriston,Alfriston
+chorus,tahunanui,Tahunanui
+chorus,shannon,Shannon
+chorus,whangarei-heads,Whangarei Heads
+chorus,st-bathans,St Bathans
+vector,mangere-bridge,Mangere Bridge
+chorus,russell,Russell
+vector,browns-bay,Browns Bay
+chorus,upper-hutt,Upper Hutt
+vector,stanmore-bay,Stanmore Bay
+chorus,ruatangata,Ruatangata
+vector,ponsonby,Ponsonby
+chorus,greymouth,Greymouth
+chorus,waiotahi,Waiotahi
+chorus,okaiawa,Okaiawa
+chorus,waihi-beach,Waihi Beach
+chorus,kaitaia,Kaitaia
+chorus,mahia,Mahia
+chorus,te-poi,Te Poi
+chorus,culverden,Culverden
+vector,panmure,Panmure
+chorus,te-anau,Te Anau
+chorus,howick,Howick
+chorus,morrinsville,Morrinsville
+vector,cockle-bay,Cockle Bay
+chorus,clive,Clive
+chorus,glendowie,Glendowie
+vector,tawharanui-peninsula,Tawharanui Peninsula
+chorus,raglan,Raglan
+chorus,islington,Islington
+chorus,mt-cook,Mt Cook
+vector,redvale,Redvale
+vector,sabulite,Sabulite
+vector,west-harbour,West Harbour
+vector,sunnynook,Sunnynook
+chorus,takapuna,Takapuna
+chorus,avonhead,Avonhead
+chorus,westport,Westport
+vector,clendon-park,Clendon Park
+vector,three-kings,Three Kings
+chorus,ngatea,Ngatea
+vector,hobsonville-point,Hobsonville Point
+chorus,manukau-city,Manukau City
+chorus,kaipara-flats,Kaipara Flats
+chorus,pukekohe,Pukekohe
+chorus,langs-beach,Langs Beach
+chorus,south-dunedin,South Dunedin
+vector,farm-cove,Farm Cove
+chorus,ohoka,Ohoka
+chorus,waipu,Waipu
+chorus,fox-glacier-j-cabinet,Fox Glacier J Cabinet
+chorus,atawhai,Atawhai
+chorus,edgecumbe,Edgecumbe
+vector,hillcrest,Hillcrest
+chorus,corstorphine,Corstorphine
+chorus,springburn,Springburn
+aws,ap-southeast-5,ap-southeast-5
+ninjaone,global,Global
+ninjaone,australia,Australia
+duo,global,Global
+duo,australia,Australia
+duo,new-zealand,New Zealand
+kaseya,global,Global
+kaseya,australia,Australia
+kaseya,apac,Asia Pacific
+enable,global,Global
+enable,new-zealand,New Zealand
+enable,canterbury,Canterbury
+enable,christchurch,Christchurch
+mimecast,global,Global
+mimecast,australia,Australia
+lightwire,global,Global
+lightwire,new-zealand,New Zealand
+lightwire,waikato,Waikato
+lightwire,bay-of-plenty,Bay of Plenty
+lightwire,auckland,Auckland
+lightwire,hawkes-bay,Hawke's Bay
+lightwire,taranaki,Taranaki
+lightwire,manawatu,Manawatu
+lightwire,wellington,Wellington
+lightwire,canterbury,Canterbury
+myob,global,Global
+myob,australia,Australia
+myob,new-zealand,New Zealand
+rewst,global,Global
+rewst,australia,Australia
+crowdstrike,global,Global
+crowdstrike,australia,Australia
+kordia,global,Global
+kordia,new-zealand,New Zealand
+pia,global,Global
+pia,australia,Australia
+pia,new-zealand,New Zealand
+nbn,global,Global
+nbn,australia,Australia
+avepoint,global,Global
+avepoint,australia,Australia
+avepoint,new-zealand,New Zealand
+aws,ap-southeast-6,ap-southeast-6
+chorus,dipton,Dipton
+chorus,carterton,Carterton
+chorus,kaka-point,Kaka Point
+vector,riverhead,Riverhead
+vector,point-wells,Point Wells
+chorus,ruakaka,Ruakaka
+chorus,ruawai,Ruawai
+vector,snells-beach,Snells Beach
+chorus,takahue,Takahue
+chorus,papamoa,Papamoa
+vector,narrow-neck,Narrow Neck
+vector,bayview,Bayview
+chorus,sefton,Sefton
+chorus,haast-aerodrome,Haast Aerodrome
+chorus,pirongia,Pirongia
+chorus,rangiora,Rangiora
+chorus,towai,Towai
+vector,mt-eden,Mt Eden
+vector,orere,Orere
+chorus,alicetown,Alicetown
+wasabi,global,Global
+wasabi,ap-southeast-2,ap-southeast-2 (Sydney)
+wasabi,ap-southeast-1,ap-southeast-1 (Singapore)
+wasabi,us-east-1,us-east-1 (N. Virginia)
+wasabi,us-west-1,us-west-1 (Oregon)
+wasabi,us-central-1,us-central-1 (Texas)
+wasabi,eu-central-1,eu-central-1 (Amsterdam)
+wasabi,eu-west-1,eu-west-1 (London)
+tenable,global,Global
+tenable,australia,Australia
+tenable,united-states,United States
+tenable,europe,Europe
+eset,global,Global
+eset,australia,Australia
+eset,apac,Asia Pacific
+eset,europe,Europe
+eset,north-america,North America
+vector,mangere-east,Mangere East
+chorus,taumarunui,Taumarunui
+vector,point-well,Point Well
+vector,hern,Hern
+chorus,christchurch,Christchurch
+chorus,oxford,Oxford
+chorus,kinloch-marina,Kinloch Marina
+chorus,bombay,Bombay
+chorus,waipara,Waipara
+vector,beachlands,Beachlands
+vector,ostend,Ostend
+chorus,whenuapai-bg-cabinet,Whenuapai Bg Cabinet
+vector,oneroa,Oneroa
+vector,surfdale,Surfdale
+chorus,waitati-a-cabinet,Waitati A Cabinet
+vector,muriwai,Muriwai
+vector,buckland-beach,Buckland Beach
+chorus,linwood,Linwood
+chorus,spring-creek,Spring Creek
+chorus,ngahinapouri,Ngahinapouri
+chorus,ngunguru,Ngunguru
+vector,stillwater,Stillwater
+vector,murrays-bay,Murrays Bay
+vector,st-heliers,St. Heliers
+vector,mission-bay,Mission Bay
+vector,blackpool,Blackpool
+chorus,makarewa-a-cabinet,Makarewa A Cabinet
+chorus,albany-dw-cabinet,Albany Dw Cabinet
+chorus,hawera,Hawera
+chorus,kaeo,Kaeo
+chorus,thames,Thames
+vector,hauraki,Hauraki
+vector,fairview-heights,Fairview Heights
+chorus,matarangi-beach,Matarangi Beach
+chorus,green-island,Green Island
+vector,grey-lynn,Grey Lynn
+chorus,titahi,Titahi
+chorus,anderson,Anderson
+vector,edgewater,Edgewater
+vector,wairau,Wairau
+chorus,manakau,Manakau
+chorus,te-horo,Te Horo
+chorus,okato,Okato
+chorus,courtenay-place,Courtenay Place
+vector,northcote,Northcote
+chorus,turitea,Turitea
+chorus,omakau,Omakau
+vector,freemans-bay,Freemans Bay
+vector,orewa,Orewa
+chorus,midhurst,Midhurst
+chorus,massey-bd-cabinet,Massey Bd Cabinet
+chorus,whakatane,Whakatane
+chorus,paeroa,Paeroa
+vector,tahekeroad,Tahekeroad
+vector,dairy-flat,Dairy Flat
+vector,newmarket,Newmarket
+chorus,otaki,Otaki
+chorus,belfast,Belfast
+chorus,ngaruawahia,Ngaruawahia
+chorus,toko,Toko
+chorus,pipiriki,Pipiriki
+chorus,woodend-a-cabinet,Woodend A Cabinet
+chorus,lyttelton,Lyttelton

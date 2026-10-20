@@ -1,0 +1,58 @@
+[
+  {
+    "reference": "FRE000044125739",
+    "status": "N",
+    "start_time": 1900000000,
+    "rest_time": 1900086400,
+    "description": "Loss of Fibre Broadband Services",
+    "add_desc": "17/07/2026 12:26 Event\nThis event is currently under investigation.",
+    "exchange": "Kelburn",
+    "updates": [
+      {
+        "timestamp": "17/07/2026 12:26 Event",
+        "description": "This event is currently under investigation."
+      }
+    ],
+    "sites": [
+      {
+        "impact": 5,
+        "role": "GPON",
+        "point": "{\"type\":\"Point\",\"coordinates\":[174.75904,-41.28455]}"
+      }
+    ]
+  },
+  {
+    "reference": "INC000044117279",
+    "status": "N",
+    "start_time": 1900000000,
+    "rest_time": 1900086400,
+    "description": "Loss of Broadband Services",
+    "add_desc": "Technician on site.",
+    "exchange": "Hibiscus Coast",
+    "updates": [],
+    "sites": [
+      {
+        "impact": 120,
+        "role": "DSL",
+        "point": "{\"type\":\"Point\",\"coordinates\":[176.964,-38.16658]}"
+      }
+    ]
+  },
+  {
+    "reference": "INC000044121873",
+    "status": "R",
+    "start_time": 1900000000,
+    "rest_time": 1900086400,
+    "description": "Loss of Broadband Services",
+    "add_desc": "Fully restored.",
+    "exchange": "Avondale",
+    "updates": [],
+    "sites": [
+      {
+        "impact": 8,
+        "role": "DSL",
+        "point": "{\"type\":\"Point\",\"coordinates\":[176.21465,-38.07589]}"
+      }
+    ]
+  }
+]

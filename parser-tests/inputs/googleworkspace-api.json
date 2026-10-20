@@ -1,0 +1,257 @@
+[
+  {
+    "id": "sjDiph2NXGAfkYYLfK7T",
+    "number": "9682992681334163277",
+    "begin": "2026-08-18T23:58:00+00:00",
+    "created": "2026-08-19T03:57:37+00:00",
+    "end": null,
+    "modified": "2026-08-19T13:05:47+00:00",
+    "external_desc": "**Summary**\nSome customers may experience slowness while using Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 22:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nAffected customers may experience slowness while using Google Drive.\n**Workaround**\nNone at this time.",
+    "updates": [
+      {
+        "created": "2026-08-19T13:05:05+00:00",
+        "modified": "2026-08-19T13:05:47+00:00",
+        "when": "2026-08-19T13:05:05+00:00",
+        "text": "**Summary**\nMultiple customers in Australia and New Zealand may have experienced slowness or errors while accessing Google Drive.\n**Description**\nThe issue with Google Drive has been resolved for all affected customers as of Wednesday, 2026-08-19 05:40 PDT.\nOur engineering teams determined the slowness was the result of a localized capacity and routing issue within our regional infrastructure.\nTo restore service, we implemented a fix to alleviate the network congestion and accelerated a planned infrastructure upgrade in the affected region to ensure normal performance levels.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nAffected customers in Australia and New Zealand may have experienced slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nThe issue is now mitigated",
+        "status": "AVAILABLE"
+      },
+      {
+        "created": "2026-08-19T11:26:14+00:00",
+        "modified": "2026-08-19T13:05:05+00:00",
+        "when": "2026-08-19T11:26:14+00:00",
+        "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 06:00 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-08-19T09:54:28+00:00",
+        "modified": "2026-08-19T11:26:14+00:00",
+        "when": "2026-08-19T09:54:28+00:00",
+        "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 04:30 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-08-19T08:54:05+00:00",
+        "modified": "2026-08-19T09:54:28+00:00",
+        "when": "2026-08-19T08:54:05+00:00",
+        "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 03:00 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-08-19T07:59:51+00:00",
+        "modified": "2026-08-19T08:54:05+00:00",
+        "when": "2026-08-19T07:59:51+00:00",
+        "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team has identified the root cause of the issue and is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 02:00 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-08-19T06:49:41+00:00",
+        "modified": "2026-08-19T07:59:51+00:00",
+        "when": "2026-08-19T06:49:41+00:00",
+        "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team has identified the root cause of the issue and is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 01:30 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-08-19T04:59:07+00:00",
+        "modified": "2026-08-19T06:49:41+00:00",
+        "when": "2026-08-19T04:59:07+00:00",
+        "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while using Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Wednesday, 2026-08-19 00:30 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or errors while using Google Drive. Some customers also may observe 502 errors with Drive inaccessible for a brief period.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_INFORMATION"
+      },
+      {
+        "created": "2026-08-19T03:57:37+00:00",
+        "modified": "2026-08-19T05:21:15+00:00",
+        "when": "2026-08-19T03:57:37+00:00",
+        "text": "**Summary**\nSome customers may experience slowness while using Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 22:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nAffected customers may experience slowness while using Google Drive.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_INFORMATION"
+      }
+    ],
+    "most_recent_update": {
+      "created": "2026-08-19T11:26:14+00:00",
+      "modified": "2026-08-19T13:05:05+00:00",
+      "when": "2026-08-19T11:26:14+00:00",
+      "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is actively working on a mitigation strategy.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors.",
+      "status": "SERVICE_DISRUPTION"
+    },
+    "status_impact": "SERVICE_DISRUPTION",
+    "severity": "medium",
+    "service_key": "VHNA7p3Z5p3iakj5sA8V",
+    "service_name": "Google Drive",
+    "affected_products": [
+      {
+        "title": "Google Drive",
+        "id": "VHNA7p3Z5p3iakj5sA8V"
+      }
+    ],
+    "uri": "incidents/sjDiph2NXGAfkYYLfK7T"
+  },
+  {
+    "id": "MpR24eKjibRq1YEEaTfp",
+    "number": "17752500813029482969",
+    "begin": "2026-08-18T19:03:00+00:00",
+    "created": "2026-08-18T19:35:27+00:00",
+    "end": "2026-08-18T22:30:00+00:00",
+    "modified": "2026-08-18T23:02:54+00:00",
+    "external_desc": "**Summary:**\nInvestigating access issues with Classroom\u2019s new web homepage.\n**Description:**\nWe are investigating reports of access issues with Classroom\u2019s new web homepage beginning on Thursday, 2026-08-13.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 13:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms:**\nAdmins and some Teachers may experience permission errors when accessing Classroom\u2019s new web homepage.\n**Workaround:**\nUsers should still be able to navigate to other views from the left hand pane of the interface.",
+    "updates": [
+      {
+        "created": "2026-08-18T23:02:54+00:00",
+        "modified": "2026-08-18T23:02:54+00:00",
+        "when": "2026-08-18T23:02:54+00:00",
+        "text": "**Summary**\n[Mitigated] Access issues for Workspace Admins with Classroom\u2019s web homepage.\n**Description**\nThe issue with Classroom has been resolved for all affected users as of Tuesday, 2026-08-18 15:30 PDT.\nFrom preliminary analysis, the issue was triggered due to a recent change which caused the permission mismatch, our Engineering team has rolled out the fix to mitigate the impact.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nWorkspace Admins may have experienced permission errors when accessing Classroom\u2019s web homepage.\nRemaining Classroom functionality remained unaffected.\nThe Classroom Mobile App and the Classroom API were unaffected by the issue.\n**Workaround**\nNone as the issue is resolved",
+        "status": "AVAILABLE"
+      },
+      {
+        "created": "2026-08-18T20:27:49+00:00",
+        "modified": "2026-08-18T23:02:54+00:00",
+        "when": "2026-08-18T20:27:49+00:00",
+        "text": "**Summary:**\nMitigating access issues for Workspace Admins with Classroom\u2019s web homepage.\n**Description:**\nOur engineering has identified the cause and mitigation work is currently underway.\nThe mitigation rollout is expected to take several hours.\nWe will provide more information by Wednesday, 2026-08-19 8:00 PDT.\n**Symptoms:**\nWorkspace Admins may experience permission errors when accessing Classroom\u2019s web homepage.\nRemaining Classroom functionality remains unaffected.\nThe Classroom Mobile App and the Classroom API are unaffected by the issue.\n**Workaround:**\nAll other pages are unaffected and admins can navigate to other pages using the left hand pane on the interface.\nWorkspace Admins can still create classes without any issue.\nWorkspace Admins can also view the courses that they are in by going to https://classroom.google.com/h/tv",
+        "status": "SERVICE_INFORMATION"
+      },
+      {
+        "created": "2026-08-18T20:00:36+00:00",
+        "modified": "2026-08-18T20:27:49+00:00",
+        "when": "2026-08-18T20:00:36+00:00",
+        "text": "**Summary:**\nMitigating access issues with Classroom\u2019s new web homepage.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Tuesday, 2026-08-18 14:00 PDT.\nWe will provide more information by Tuesday, 2026-08-18 14:15 PDT.\n**Symptoms:**\nAdmins and some Teachers may experience permission errors when accessing Classroom\u2019s new web homepage.\n**Workaround:**\nUsers should still be able to navigate to other views from the left hand pane of the interface.",
+        "status": "SERVICE_INFORMATION"
+      },
+      {
+        "created": "2026-08-18T19:35:27+00:00",
+        "modified": "2026-08-18T20:11:32+00:00",
+        "when": "2026-08-18T19:35:27+00:00",
+        "text": "**Summary:**\nInvestigating access issues with Classroom\u2019s new web homepage.\n**Description:**\nWe are investigating reports of access issues with Classroom\u2019s new web homepage beginning on Thursday, 2026-08-13.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 13:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms:**\nAdmins and some Teachers may experience permission errors when accessing Classroom\u2019s new web homepage.\n**Workaround:**\nUsers should still be able to navigate to other views from the left hand pane of the interface.",
+        "status": "SERVICE_INFORMATION"
+      }
+    ],
+    "most_recent_update": {
+      "created": "2026-08-18T23:02:54+00:00",
+      "modified": "2026-08-18T23:02:54+00:00",
+      "when": "2026-08-18T23:02:54+00:00",
+      "text": "**Summary**\n[Mitigated] Access issues for Workspace Admins with Classroom\u2019s web homepage.\n**Description**\nThe issue with Classroom has been resolved for all affected users as of Tuesday, 2026-08-18 15:30 PDT.\nFrom preliminary analysis, the issue was triggered due to a recent change which caused the permission mismatch, our Engineering team has rolled out the fix to mitigate the impact.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nWorkspace Admins may have experienced permission errors when accessing Classroom\u2019s web homepage.\nRemaining Classroom functionality remained unaffected.\nThe Classroom Mobile App and the Classroom API were unaffected by the issue.\n**Workaround**\nNone as the issue is resolved",
+      "status": "AVAILABLE"
+    },
+    "status_impact": "SERVICE_INFORMATION",
+    "severity": "low",
+    "service_key": "3GoNVrVz48jeNZSyLJMV",
+    "service_name": "Classroom",
+    "affected_products": [
+      {
+        "title": "Classroom",
+        "id": "3GoNVrVz48jeNZSyLJMV"
+      }
+    ],
+    "uri": "incidents/MpR24eKjibRq1YEEaTfp"
+  },
+  {
+    "id": "AWyE1SfEzpe8Qed49Rog",
+    "number": "12918412236754833550",
+    "begin": "2026-06-30T09:03:00+00:00",
+    "created": "2026-06-30T11:56:57+00:00",
+    "end": "2026-06-30T20:45:00+00:00",
+    "modified": "2026-07-01T04:58:32+00:00",
+    "external_desc": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe are experiencing an issue with Google Cloud Support beginning on Tuesday, 2026-06-30 02:03 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2026-06-30 05:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nNone at this time.",
+    "updates": [
+      {
+        "created": "2026-07-01T04:58:32+00:00",
+        "modified": "2026-07-01T04:58:32+00:00",
+        "when": "2026-07-01T04:58:32+00:00",
+        "text": "**Title**\n[Resolved] Inbound emails from customers to Google Support were experiencing issues.\n**Description**\nThe issue with inbound emails to Google Cloud Support has been resolved for all affected customers as of Tuesday, 2026-06-30 20:45 PDT.\nFrom preliminary analysis, the engineering team identified a recent change which was preventing incoming emails from being processed. We have successfully rolled back the change to mitigate the impact.\nBacklog processing of all the affected emails is now complete.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nInbound emails from customers to Google Support were experiencing issues.\nCase creation and updates continued to work without any issues.\n**Workaround**\nNone as the issue is resolved.",
+        "status": "AVAILABLE"
+      },
+      {
+        "created": "2026-07-01T00:44:02+00:00",
+        "modified": "2026-07-01T04:58:32+00:00",
+        "when": "2026-07-01T00:44:02+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineers are continuing to work replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026. We expect the email replays to take several hours, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 21:30 PDT.\n**Symptoms**\nInbound emails from customers to Google Support after 09:00 AM PDT on 30 June 2026 are working as expected. The affected emails from the time of the issue are being replayed.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T19:03:19+00:00",
+        "modified": "2026-07-01T00:44:02+00:00",
+        "when": "2026-06-30T19:03:19+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineers are continuing to work replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026. We expect the email replays to take several hours, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 17:00 PDT.\n**Symptoms**\nInbound emails from customers to Google Support after 09:00 AM PDT on 30 June 2026 are working as expected. The affected emails from the time of the issue are being replayed.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T17:53:29+00:00",
+        "modified": "2026-06-30T19:03:19+00:00",
+        "when": "2026-06-30T17:53:29+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineers are continuing to work replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026. We expect the email replays to take several hours, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 12:15 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T16:36:46+00:00",
+        "modified": "2026-06-30T17:53:29+00:00",
+        "when": "2026-06-30T16:36:46+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineering teams have shifted focus to replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026.\nWhile there is currently no specific ETA for the email replay to finish, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 11:00 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T15:48:35+00:00",
+        "modified": "2026-06-30T16:36:46+00:00",
+        "when": "2026-06-30T15:48:35+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Tuesday, 2026-06-30 09:45 PDT.\nWe will provide more information by Tuesday, 2026-06-30 10:00 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T14:51:10+00:00",
+        "modified": "2026-06-30T15:48:35+00:00",
+        "when": "2026-06-30T14:51:10+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-06-30 08:45 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T14:06:26+00:00",
+        "modified": "2026-06-30T14:51:10+00:00",
+        "when": "2026-06-30T14:06:26+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe are experiencing an issue with Google Cloud Support beginning on Tuesday, 2026-06-30 02:03 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2026-06-30 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T13:28:46+00:00",
+        "modified": "2026-06-30T14:06:26+00:00",
+        "when": "2026-06-30T13:28:46+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe believe the issue with Google Support is mitigated.\nOur engineering team continues to investigate the root cause.\nCustomers are being advised if they have an urgent issue to resend previous communication to Google Support.\nWe will provide an update by Tuesday, 2026-06-30 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T12:28:59+00:00",
+        "modified": "2026-06-30T13:28:46+00:00",
+        "when": "2026-06-30T12:28:59+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe believe the issue with Google Support is mitigated.\nOur engineering team continues to investigate the root cause.\nCustomers are being advised if they have an urgent issue to resend previous communication to Google Support.\nWe will provide an update by Tuesday, 2026-06-30 06:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T12:17:19+00:00",
+        "modified": "2026-06-30T12:28:59+00:00",
+        "when": "2026-06-30T12:17:19+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe believe the issue with Google Support is mitigated.\nOur engineering team continues to investigate the root cause.\nCustomers are being advised if they have an urgent issue to resend previous communication to Google Support.\nWe will provide an update by Tuesday, 2026-06-30 06:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_DISRUPTION"
+      },
+      {
+        "created": "2026-06-30T11:56:57+00:00",
+        "modified": "2026-06-30T12:17:19+00:00",
+        "when": "2026-06-30T11:56:57+00:00",
+        "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe are experiencing an issue with Google Cloud Support beginning on Tuesday, 2026-06-30 02:03 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2026-06-30 05:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nNone at this time.",
+        "status": "SERVICE_DISRUPTION"
+      }
+    ],
+    "most_recent_update": {
+      "created": "2026-07-01T04:58:32+00:00",
+      "modified": "2026-07-01T04:58:32+00:00",
+      "when": "2026-07-01T04:58:32+00:00",
+      "text": "**Title**\n[Resolved] Inbound emails from customers to Google Support were experiencing issues.\n**Description**\nThe issue with inbound emails to Google Cloud Support has been resolved for all affected customers as of Tuesday, 2026-06-30 20:45 PDT.\nFrom preliminary analysis, the engineering team identified a recent change which was preventing incoming emails from being processed. We have successfully rolled back the change to mitigate the impact.\nBacklog processing of all the affected emails is now complete.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nInbound emails from customers to Google Support were experiencing issues.\nCase creation and updates continued to work without any issues.\n**Workaround**\nNone as the issue is resolved.",
+      "status": "AVAILABLE"
+    },
+    "status_impact": "SERVICE_OUTAGE",
+    "severity": "high",
+    "service_key": "dnz8HVUHoMMcW9wV91LY",
+    "service_name": "Google Workspace Support",
+    "affected_products": [
+      {
+        "title": "Google Workspace Support",
+        "id": "dnz8HVUHoMMcW9wV91LY"
+      }
+    ],
+    "uri": "incidents/AWyE1SfEzpe8Qed49Rog"
+  }
+]

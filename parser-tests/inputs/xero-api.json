@@ -1,0 +1,473 @@
+{
+  "page": {
+    "id": "nzlm387hk3hl",
+    "name": "Xero",
+    "url": "https://status.xero.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2026-09-26T06:29:04.665Z"
+  },
+  "incidents": [
+    {
+      "id": "hgxsgqyh35px",
+      "name": "UK: HMRC connected services (Corporate Tax, Personal Tax, Partnership Tax, MTD IT and MTD VAT)",
+      "status": "resolved",
+      "created_at": "2026-09-23T13:16:15.865Z",
+      "updated_at": "2026-09-25T12:52:21.488Z",
+      "monitoring_at": "2026-09-24T10:05:23.332Z",
+      "resolved_at": "2026-09-25T12:52:21.475Z",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/kjs5ly9197kq",
+      "started_at": "2026-09-23T13:16:15.000Z",
+      "page_id": "nzlm387hk3hl",
+      "incident_updates": [
+        {
+          "id": "w9229mrlygfy",
+          "status": "resolved",
+          "body": "We have received confirmation from HMRC that the issues affecting submission status not updating in Xero for some customers has now been resolved.",
+          "incident_id": "hgxsgqyh35px",
+          "created_at": "2026-09-25T12:52:21.475Z",
+          "updated_at": "2026-09-25T12:52:21.475Z",
+          "display_at": "2026-09-25T12:52:21.475Z",
+          "affected_components": [
+            {
+              "code": "hhz0py6nmyq3",
+              "name": "United Kingdom - Regional Products - Tax Reporting - UK VAT & MTD",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9sljl9ds3910",
+          "status": "monitoring",
+          "body": "HMRC have confirmed that MTD IT and MTD VAT are now fully available. We are still experiencing some slowness with the status of Corporate Tax, Personal Tax, Partnership Tax and CIS filings updating in Xero and we are in ongoing contact with HMRC. You can check the status of these filings by logging into the HMRC services directly in the mean time.",
+          "incident_id": "hgxsgqyh35px",
+          "created_at": "2026-09-24T10:05:23.332Z",
+          "updated_at": "2026-09-24T10:05:23.332Z",
+          "display_at": "2026-09-24T10:05:23.332Z",
+          "affected_components": [
+            {
+              "code": "hhz0py6nmyq3",
+              "name": "United Kingdom - Regional Products - Tax Reporting - UK VAT & MTD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "mk046wst3rb9",
+          "status": "investigating",
+          "body": "We're aware that the issue with HMRC services is affecting Corporate Tax, Personal Tax, Partnership Tax, MTD IT and MTD VAT. Some products are unavailable, responding more slowly than usual, or not updating their status. This is due to an issue with HMRC and HMRC have confirmed they are investigating.",
+          "incident_id": "hgxsgqyh35px",
+          "created_at": "2026-09-23T13:16:15.928Z",
+          "updated_at": "2026-09-23T16:49:28.656Z",
+          "display_at": "2026-09-23T16:49:15.000Z",
+          "affected_components": [
+            {
+              "code": "hhz0py6nmyq3",
+              "name": "United Kingdom - Regional Products - Tax Reporting - UK VAT & MTD",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "hhz0py6nmyq3",
+          "name": "Tax Reporting - UK VAT & MTD",
+          "status": "operational",
+          "created_at": "2022-07-23T09:56:37.844Z",
+          "updated_at": "2026-09-25T12:52:21.443Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-07-22",
+          "group_id": "7qhykwxvtcc2",
+          "page_id": "nzlm387hk3hl",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "6438c28w6hl5",
+      "name": "Global: Invoicing/Contacts and Payroll - Brief latency in some areas on Xero",
+      "status": "resolved",
+      "created_at": "2026-09-24T04:00:00.000Z",
+      "updated_at": "2026-09-24T04:57:41.749Z",
+      "monitoring_at": null,
+      "resolved_at": "2026-09-24T04:00:00.000Z",
+      "impact": "none",
+      "shortlink": "https://stspg.io/qm9r80p7nk7k",
+      "started_at": "2026-09-24T04:57:41.700Z",
+      "page_id": "nzlm387hk3hl",
+      "incident_updates": [
+        {
+          "id": "1yr3m2h072wg",
+          "status": "resolved",
+          "body": "Our team has resolved an issue impacting our customers globally over the past 3 minutes from 2:17pm-2:19pm AEST where there was some latency using Payroll, Invoicing and Contacts We apologise for any inconvenience this has caused.",
+          "incident_id": "6438c28w6hl5",
+          "created_at": "2026-09-24T04:57:41.741Z",
+          "updated_at": "2026-09-24T04:57:41.741Z",
+          "display_at": "2026-09-24T04:00:00.000Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [],
+      "reminder_intervals": null
+    },
+    {
+      "id": "pc60kshsvg70",
+      "name": "Global: Salesforce is currently experiencing a major service disruption impacting multiple instances across all regions, we're aware that some customers are currently unable to raise cases, contact support, use in-app help or access Xero Central",
+      "status": "resolved",
+      "created_at": "2026-09-16T08:49:12.248Z",
+      "updated_at": "2026-09-16T15:12:48.387Z",
+      "monitoring_at": "2026-09-16T13:56:25.062Z",
+      "resolved_at": "2026-09-16T15:12:48.373Z",
+      "impact": "major",
+      "shortlink": "https://stspg.io/pqrgy6lfnzj3",
+      "started_at": "2026-09-16T08:49:12.000Z",
+      "page_id": "nzlm387hk3hl",
+      "incident_updates": [
+        {
+          "id": "c9bpjvqfqgq6",
+          "status": "resolved",
+          "body": "Salesforce has implemented a fix for the issue that was preventing some customers are from raising cases, contacting support, using in-app help or accessing Xero Central",
+          "incident_id": "pc60kshsvg70",
+          "created_at": "2026-09-16T15:12:48.373Z",
+          "updated_at": "2026-09-16T15:12:48.373Z",
+          "display_at": "2026-09-16T15:12:48.373Z",
+          "affected_components": [
+            {
+              "code": "djy725thc7x0",
+              "name": "Xero Central",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "ky2t1h9hyqzq",
+          "status": "monitoring",
+          "body": "Salesforce has implemented a fix and we are currently monitoring the results.",
+          "incident_id": "pc60kshsvg70",
+          "created_at": "2026-09-16T13:56:25.062Z",
+          "updated_at": "2026-09-16T13:56:25.062Z",
+          "display_at": "2026-09-16T13:56:25.062Z",
+          "affected_components": [
+            {
+              "code": "djy725thc7x0",
+              "name": "Xero Central",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3dm94s2qtqbw",
+          "status": "investigating",
+          "body": "Salesforce is currently experiencing a major service disruption impacting multiple instances across all regions, we're aware that some customers are currently unable to raise cases, contact support, use in-app help or access Xero Central. We're investigating this with Salesforce as a priority. Please note, this does not impact your access to the Xero platform.\n\nOur teams are actively monitoring the situation. We are in direct contact with Salesforce, who are treating this as a critical incident and working to restore services as quickly as possible. We will share further updates as the situation develops.",
+          "incident_id": "pc60kshsvg70",
+          "created_at": "2026-09-16T10:19:31.810Z",
+          "updated_at": "2026-09-16T10:19:31.810Z",
+          "display_at": "2026-09-16T10:19:31.810Z",
+          "affected_components": [
+            {
+              "code": "djy725thc7x0",
+              "name": "Xero Central",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lp5qy2tf2sq8",
+          "status": "investigating",
+          "body": "We're that some customers unable to raise cases, contact support, use in-app help or access Xero Central. We're investigating this with our third-party provider urgently.",
+          "incident_id": "pc60kshsvg70",
+          "created_at": "2026-09-16T08:49:12.335Z",
+          "updated_at": "2026-09-16T09:54:07.768Z",
+          "display_at": "2026-09-16T10:53:12.000Z",
+          "affected_components": [
+            {
+              "code": "djy725thc7x0",
+              "name": "Xero Central",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "djy725thc7x0",
+          "name": "Xero Central",
+          "status": "operational",
+          "created_at": "2019-09-12T00:51:13.332Z",
+          "updated_at": "2026-09-16T15:12:48.345Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "nzlm387hk3hl",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "1sf89txxzylg",
+      "name": "UK: Delay with processing HMRC connected services (CIS, Corporate Tax, Personal Tax, Partnership Tax, Payroll)",
+      "status": "resolved",
+      "created_at": "2026-09-14T15:08:21.983Z",
+      "updated_at": "2026-09-15T13:43:29.529Z",
+      "monitoring_at": "2026-09-15T07:22:36.248Z",
+      "resolved_at": "2026-09-15T13:43:29.513Z",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/r7h2z990qh16",
+      "started_at": "2026-09-14T15:08:21.974Z",
+      "page_id": "nzlm387hk3hl",
+      "incident_updates": [
+        {
+          "id": "sv3wcszq3flf",
+          "status": "resolved",
+          "body": "HMRC has resolved the issue that caused delayed responses from its services.",
+          "incident_id": "1sf89txxzylg",
+          "created_at": "2026-09-15T13:43:29.513Z",
+          "updated_at": "2026-09-15T13:43:29.513Z",
+          "display_at": "2026-09-15T13:43:29.513Z",
+          "affected_components": [
+            {
+              "code": "7gb0r8j1xr75",
+              "name": "United Kingdom - Regional Products - UK Payroll",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6zhvnpgk50nv",
+          "status": "monitoring",
+          "body": "HMRC has resolved the issue that caused delayed responses from its services. We are monitoring the results.",
+          "incident_id": "1sf89txxzylg",
+          "created_at": "2026-09-15T07:22:36.248Z",
+          "updated_at": "2026-09-15T07:22:36.248Z",
+          "display_at": "2026-09-15T07:22:36.248Z",
+          "affected_components": [
+            {
+              "code": "7gb0r8j1xr75",
+              "name": "United Kingdom - Regional Products - UK Payroll",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "4dtzqvn411ms",
+          "status": "identified",
+          "body": "HMRC have let us know that there is an ongoing investigation into the delayed responses from their services which is impacting UK customers using CIS, Personal tax, Partnership Tax, Payroll and Corporation tax.",
+          "incident_id": "1sf89txxzylg",
+          "created_at": "2026-09-14T15:53:40.706Z",
+          "updated_at": "2026-09-14T15:53:40.706Z",
+          "display_at": "2026-09-14T15:53:40.706Z",
+          "affected_components": [
+            {
+              "code": "7gb0r8j1xr75",
+              "name": "United Kingdom - Regional Products - UK Payroll",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "pkqf0zsc757z",
+          "status": "investigating",
+          "body": "We're aware that UK customers using CIS, Personal tax, Partnership Tax, Payroll and Corporation tax may experience a delay in filings processing. This is due to our systems receiving errors from HMRC's services. We have contacted HMRC for assistance.",
+          "incident_id": "1sf89txxzylg",
+          "created_at": "2026-09-14T15:08:22.054Z",
+          "updated_at": "2026-09-14T15:08:22.054Z",
+          "display_at": "2026-09-14T15:08:22.054Z",
+          "affected_components": [
+            {
+              "code": "7gb0r8j1xr75",
+              "name": "United Kingdom - Regional Products - UK Payroll",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7gb0r8j1xr75",
+          "name": "UK Payroll",
+          "status": "operational",
+          "created_at": "2022-07-23T09:56:57.979Z",
+          "updated_at": "2026-09-15T13:43:29.480Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-07-22",
+          "group_id": "7qhykwxvtcc2",
+          "page_id": "nzlm387hk3hl",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
+      "id": "wy092jxhrsj6",
+      "name": "Global: Syft Native Budget and Cashflow Manager - Error when accessing Native Budget and Cashflow Manager",
+      "status": "resolved",
+      "created_at": "2026-09-15T03:29:22.583Z",
+      "updated_at": "2026-09-15T03:45:20.778Z",
+      "monitoring_at": "2026-09-15T03:40:55.176Z",
+      "resolved_at": "2026-09-15T03:45:20.761Z",
+      "impact": "major",
+      "shortlink": "https://stspg.io/84rz6r2jfd3m",
+      "started_at": "2026-09-15T03:29:22.573Z",
+      "page_id": "nzlm387hk3hl",
+      "incident_updates": [
+        {
+          "id": "6tyj5lwxmfts",
+          "status": "resolved",
+          "body": "Our team has resolved the issue impacting customers trying to access Native Budget and Cashflow Manager. We apologise for any inconvenience this has caused.",
+          "incident_id": "wy092jxhrsj6",
+          "created_at": "2026-09-15T03:45:20.761Z",
+          "updated_at": "2026-09-15T03:45:20.761Z",
+          "display_at": "2026-09-15T03:45:20.761Z",
+          "affected_components": [
+            {
+              "code": "6m7nc9dyn3nr",
+              "name": "Core Xero Products - Analytics powered by Syft",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "rm6mwynk2c64",
+          "status": "monitoring",
+          "body": "Our team has implemented a fix and we are currently monitoring the results.",
+          "incident_id": "wy092jxhrsj6",
+          "created_at": "2026-09-15T03:40:55.176Z",
+          "updated_at": "2026-09-15T03:40:55.176Z",
+          "display_at": "2026-09-15T03:40:55.176Z",
+          "affected_components": [
+            {
+              "code": "6m7nc9dyn3nr",
+              "name": "Core Xero Products - Analytics powered by Syft",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "zj1pz3z8w83g",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "wy092jxhrsj6",
+          "created_at": "2026-09-15T03:38:04.080Z",
+          "updated_at": "2026-09-15T03:38:04.080Z",
+          "display_at": "2026-09-15T03:38:04.080Z",
+          "affected_components": [
+            {
+              "code": "6m7nc9dyn3nr",
+              "name": "Core Xero Products - Analytics powered by Syft",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "7pcg3n8jbkkm",
+          "status": "investigating",
+          "body": "We are aware of an issue where customers trying to access Native Budget and Cashflow Manager in Reporting receive an error. Our team is investigating this with urgency.",
+          "incident_id": "wy092jxhrsj6",
+          "created_at": "2026-09-15T03:29:22.660Z",
+          "updated_at": "2026-09-15T03:29:22.660Z",
+          "display_at": "2026-09-15T03:29:22.660Z",
+          "affected_components": [
+            {
+              "code": "6m7nc9dyn3nr",
+              "name": "Core Xero Products - Analytics powered by Syft",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "6m7nc9dyn3nr",
+          "name": "Analytics powered by Syft",
+          "status": "operational",
+          "created_at": "2025-02-26T23:16:56.055Z",
+          "updated_at": "2026-09-15T03:45:20.722Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": "2025-02-25",
+          "group_id": "wgg5jvvjfw9v",
+          "page_id": "nzlm387hk3hl",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ]
+}

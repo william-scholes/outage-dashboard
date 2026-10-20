@@ -1,0 +1,12 @@
+[Unit]
+Description=Hourly Outage Automation data quality lint check
+Requires=outage-automation-lint.service
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1h
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,13 @@
+[
+  {
+    "raw_id": "example-1",
+    "service": "cloudflare",
+    "title": "Example outage",
+    "description": "Example description",
+    "severity": "info",
+    "regions": ["Global"],
+    "link": "https://example.invalid",
+    "published": "2026-06-06T09:15:00.000Z"
+  }
+]
+

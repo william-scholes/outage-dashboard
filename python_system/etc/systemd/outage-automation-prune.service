@@ -1,0 +1,25 @@
+[Unit]
+Description=Outage Automation - prune stale events.ndjson entries
+Documentation=https://github.com/william-scholes/outage-automation
+# No network dependency; prune operates entirely on local state files.
+
+[Service]
+Type=oneshot
+# Host-specific config (User=, ReadWritePaths=, etc.) belongs in a drop-in
+# under /etc/systemd/system/outage-automation-prune.service.d/. See
+# outage-automation.service.d/example.conf for a worked example.
+EnvironmentFile=/etc/systemd/system/outage-automation.env
+# Prune events older than the retention window (default 90 days).
+# OA_EVENTS_RETENTION_DAYS may be set in the env file to override.
+ExecStart=/bin/sh -c 'exec "${OA_ROOT}/python_system/bin/oa-prune-events.sh" --days "${OA_EVENTS_RETENTION_DAYS:-90}"'
+ExecStopPost=/bin/sh -c 'exec rm -f "${OA_ROOT}/python_system/state/events.prune.tmp"'
+StandardOutput=journal
+StandardError=journal
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# Resource limits — prune is streaming I/O, not CPU-heavy.
+MemoryMax=256M
+TasksMax=4

@@ -1,0 +1,974 @@
+{
+  "result": {
+    "status_overall": {
+      "updated": "2026-09-10T20:00:20.066Z",
+      "status": "Operational",
+      "status_code": 100
+    },
+    "status": [
+      {
+        "id": "5d849b1c02e65b3ec45369e4",
+        "name": "United States Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-10T20:00:20.198Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.866Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:52.989Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-06-06T08:20:40.747Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-05-19T18:19:42.984Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-05-08T09:28:12.389Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-08-25T00:13:33.050Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-05-08T09:28:12.351Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-09-03T14:12:54.174Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-09-03T14:12:54.173Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-09-03T14:12:54.172Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.198Z"
+      },
+      {
+        "id": "61892b3c51fec9053d6127b1",
+        "name": "United States B Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-10T20:00:20.200Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.863Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:52.976Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-07-31T14:00:03.068Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-07-31T14:00:03.067Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-07-31T14:00:03.104Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-08-25T00:13:33.040Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-07-31T14:00:03.102Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-01-23T07:52:00.022Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-01-23T07:52:00.023Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-01-23T07:52:00.098Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.200Z"
+      },
+      {
+        "id": "636157ab93007f053ae708e6",
+        "name": "United States - Email Security, Cloud Integrated",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-01-23T07:52:00.097Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "636151139de89366ca23a099",
+            "name": "Administration",
+            "updated": "2026-01-23T07:52:00.096Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "63615126dc4010053470d5ec",
+            "name": "Protection",
+            "updated": "2026-01-23T07:52:00.173Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-01-23T07:52:00.173Z"
+      },
+      {
+        "id": "5d849cb53ae4e33ea574ab5c",
+        "name": "United Kingdom Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-10T20:00:20.203Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.926Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:53.030Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-04-23T22:00:08.578Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-04-23T22:00:08.577Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-04-23T22:00:08.616Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-08-25T00:13:33.048Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-04-23T22:00:08.615Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-04-23T22:00:08.613Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-04-23T22:00:08.577Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-04-23T22:00:08.650Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.203Z"
+      },
+      {
+        "id": "636157c0dc4010053470d5ed",
+        "name": "United Kingdom - Email Security, Cloud Integrated",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-01-23T07:52:00.209Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "636151139de89366ca23a099",
+            "name": "Administration",
+            "updated": "2026-01-23T07:52:00.287Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "63615126dc4010053470d5ec",
+            "name": "Protection",
+            "updated": "2026-01-23T07:52:00.286Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-01-23T07:52:00.287Z"
+      },
+      {
+        "id": "5d849ccecd22ef3f79d395da",
+        "name": "South African Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-10T20:00:20.206Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.864Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:53.045Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-04-21T15:55:06.223Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-03-24T18:38:24.640Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-01-23T07:52:00.322Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-08-25T00:13:33.101Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-01-23T07:52:00.321Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-01-23T07:52:00.321Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-01-23T07:52:00.320Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-01-23T07:52:00.397Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.206Z"
+      },
+      {
+        "id": "65f0651e494465058ab57035",
+        "name": "South Africa - Email Security, Cloud Integrated",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-01-23T07:52:00.396Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "636151139de89366ca23a099",
+            "name": "Administration",
+            "updated": "2026-01-23T07:52:00.320Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "63615126dc4010053470d5ec",
+            "name": "Protection",
+            "updated": "2026-01-23T07:52:00.359Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-01-23T07:52:00.396Z"
+      },
+      {
+        "id": "5d849cdaafcd264070d51840",
+        "name": "Australian Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-10T20:00:20.210Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.927Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:52.984Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-07-24T17:00:02.999Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-07-24T17:00:02.963Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-07-24T17:00:02.966Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-08-25T00:13:33.118Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-07-24T17:00:02.965Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-08-21T15:34:11.635Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-01-23T07:52:00.509Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-01-23T07:52:00.509Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.210Z"
+      },
+      {
+        "id": "65f063c923733e058ce21bfa",
+        "name": "Australia - Email Security, Cloud Integrated",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-01-23T07:52:00.432Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "636151139de89366ca23a099",
+            "name": "Administration",
+            "updated": "2026-01-23T07:52:00.471Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "63615126dc4010053470d5ec",
+            "name": "Protection",
+            "updated": "2026-01-23T07:52:00.470Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-01-23T07:52:00.471Z"
+      },
+      {
+        "id": "5d849cc1311e0a3e41834d8c",
+        "name": "German Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-10T20:00:20.212Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.872Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:52.975Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-06-05T21:00:05.294Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-06-05T21:00:05.295Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-06-05T21:00:05.294Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-08-25T00:13:33.039Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-06-05T21:00:05.344Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-05-22T21:00:03.449Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-05-22T21:00:03.485Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-05-22T21:00:03.448Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.212Z"
+      },
+      {
+        "id": "65f063f631269805856e97b8",
+        "name": "Germany - Email Security, Cloud Integrated",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-01-23T07:52:00.583Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "636151139de89366ca23a099",
+            "name": "Administration",
+            "updated": "2026-01-23T07:52:00.583Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "63615126dc4010053470d5ec",
+            "name": "Protection",
+            "updated": "2026-01-23T07:52:00.665Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-01-23T07:52:00.665Z"
+      },
+      {
+        "id": "5f7c391572aa0804bbe126e3",
+        "name": "Canadian Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-10T20:00:20.215Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.928Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:53.027Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-04-21T15:55:06.221Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-03-24T18:39:43.626Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-01-23T07:52:00.625Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-08-25T00:13:33.098Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-01-23T07:52:00.701Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-08-21T15:34:11.682Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-01-23T07:52:00.661Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-01-23T07:52:00.700Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.215Z"
+      },
+      {
+        "id": "65f06405eab4b7058b441d96",
+        "name": "Canada - Email Security, Cloud Integrated",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-01-23T07:52:00.699Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "636151139de89366ca23a099",
+            "name": "Administration",
+            "updated": "2026-01-23T07:52:00.776Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "63615126dc4010053470d5ec",
+            "name": "Protection",
+            "updated": "2026-01-23T07:52:00.776Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-01-23T07:52:00.776Z"
+      },
+      {
+        "id": "5d849ce9189efa3e8afa31c5",
+        "name": "Offshore Grid",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5d849c953ae4e33ea574ab5b",
+            "name": "Administration Console",
+            "updated": "2026-09-02T21:38:09.604Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849b1c02e65b3ec45369e3",
+            "name": "Email Processing",
+            "updated": "2026-09-04T15:41:25.932Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc983d91d35c02418a4de95",
+            "name": "End User Applications",
+            "updated": "2026-09-02T10:28:53.045Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d9289c6a840a18b04659",
+            "name": "Remediation",
+            "updated": "2026-04-21T15:55:06.225Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d90f57b5f1057a500bfc",
+            "name": "Threat Protection",
+            "updated": "2026-03-24T18:40:07.768Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dc97d3b360a18219731b6d8",
+            "name": "Web Security",
+            "updated": "2026-01-23T07:52:00.813Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "69c2d8679c6a840a18b04658",
+            "name": "Authentication",
+            "updated": "2026-09-02T21:38:09.604Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbaf4aa9b44b7279b34b132",
+            "name": "Awareness Training",
+            "updated": "2026-01-23T07:52:00.812Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-04T15:41:25.932Z"
+      },
+      {
+        "id": "68d569c4ab0c68054f2b16d1",
+        "name": "Aware - US Azure East",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "68d562aec3dab40549c20132",
+            "name": "Aware - Search & Discover",
+            "updated": "2026-09-10T20:00:20.217Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562bee121400556466fa5",
+            "name": "Aware - Signal",
+            "updated": "2026-09-10T20:00:20.217Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "68d562cc923a050548bd7b2c",
+            "name": "Aware - Spotlight",
+            "updated": "2026-09-10T20:00:20.217Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.217Z"
+      },
+      {
+        "id": "5dbb883d54a3703d30cb32a8",
+        "name": "Points of Contact",
+        "status": "Operational",
+        "status_code": 100,
+        "containers": [
+          {
+            "id": "5dc9847bb03f7a2589fc8d48",
+            "name": "Mimecaster Central Community",
+            "updated": "2026-06-02T00:24:13.864Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5d849ca81a92a43fb6ae8ada",
+            "name": "Support Telephony",
+            "updated": "2026-09-10T20:00:20.063Z",
+            "status": "Operational",
+            "status_code": 100
+          },
+          {
+            "id": "5dbb882ee637213b6dac2de2",
+            "name": "Website",
+            "updated": "2025-11-24T06:15:30.043Z",
+            "status": "Operational",
+            "status_code": 100
+          }
+        ],
+        "updated": "2026-09-10T20:00:20.063Z"
+      }
+    ],
+    "incidents": [
+      {
+        "_id": "mc-inc-201",
+        "name": "Mail Delivery Delays - Australian Grid",
+        "datetime_open": "2026-09-26T08:00:00.000Z",
+        "datetime_close": null,
+        "current_active": true,
+        "messages": [
+          {
+            "details": "Mimecast engineering is investigating outbound mail delays affecting Australian Grid tenants.",
+            "state": 400,
+            "status": 100,
+            "datetime": "2026-09-26T08:05:00.000Z"
+          }
+        ],
+        "containers_affected": [
+          {
+            "name": "Australian Grid"
+          }
+        ],
+        "components_affected": [
+          {
+            "name": "Australian Grid - Inbound & Outbound Email Delivery"
+          }
+        ]
+      },
+      {
+        "_id": "mc-inc-200",
+        "name": "Administration Console Login Slowness",
+        "datetime_open": "2026-09-25T02:00:00.000Z",
+        "datetime_close": "2026-09-25T04:00:00.000Z",
+        "current_active": false,
+        "messages": [
+          {
+            "details": "The issue has been resolved.",
+            "state": 100,
+            "status": 400,
+            "datetime": "2026-09-25T04:00:00.000Z"
+          }
+        ],
+        "containers_affected": [
+          {
+            "name": "United States Grid"
+          }
+        ],
+        "components_affected": [
+          {
+            "name": "Administration Console"
+          }
+        ]
+      }
+    ],
+    "maintenance": {
+      "active": [],
+      "upcoming": []
+    }
+  }
+}
