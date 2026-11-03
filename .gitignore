@@ -71,11 +71,7 @@ parser-tests/package.json
 parser-tests/package-lock.json
 parser-tests/run-all-tests.js
 scripts/*
-scripts/probe_upstream.py
 !scripts/release-public.sh
-!scripts/*
-scripts/probe_upstream.py
-!scripts/release-public.shrelease-public.sh
 PLAN_2026-06-06.md
 SESSION_NOTES_2026-06-06.md
 SESSION_NOTES_2026-06-05.md
@@ -89,7 +85,8 @@ wills-notes.txt
 docs/archive/
 
 # Internal business docs & development notes (not for public repo)
-internal/
+internal/*
+!internal/*RELEASE_PLAYBOOK.md
 .agents/
 AGY.md
 ISSUES.md
